@@ -1,0 +1,6 @@
+Pacote: oga_para_particlefx-2
+Autor: para (OpenGameArt)
+Fonte: https://opengameart.org/content/animated-particle-effects-2
+Licença: CC0 1.0 Universal (Public Domain Dedication) - https://creativecommons.org/publicdomain/zero/1.0/
+Conferido em: 2026-09-24 (página da fonte indica CC0; cópia da página salva em pagina_fonte*.html quando disponível)
+Atribuição: não obrigatória (CC0). Crédito recomendado nos créditos do jogo: "para (OpenGameArt)".

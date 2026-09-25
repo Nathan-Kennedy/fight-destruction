@@ -1,0 +1,108 @@
+Licenças dos shaders em art/third_party/shaders/ (conferido em 2026-09-24)
+
+godotshaders.com: cada post declara a licença do código ('The shader code and all code snippets in this post are under CC0 license / MIT license and can be used freely'). A declaração aparece no rodapé de cada post (URL listada abaixo).
+
+- shockwave_zawarudo.gdshader — IceTeea — CC0-1.0 — https://godotshaders.com/shader/za-warudo-shockwave-effect/
+- shockwave_ring_simple.gdshader — snesmocha — CC0-1.0 — https://godotshaders.com/shader/impact-shader/
+- speedlines_anime.gdshader — ProfesorShader — CC0-1.0 — https://godotshaders.com/shader/anime-style-speedlines-w-or-w-o-distortion/
+- chromatic_aberration_radial.gdshader — alfroids — MIT — https://godotshaders.com/shader/radial-chromatic-aberration-2/
+- impact_frame_manga.gdshader — hailyn — CC0-1.0 — https://godotshaders.com/shader/screen-sampled-black-and-white-manga-hit-impact-post-process-shader/
+- impact_frame_threshold.gdshader — TTien63 — CC0-1.0 — https://godotshaders.com/shader/threshold-silohoutte-effect/
+- dissolve_burn_edge.gdshader — mreliptik — CC0-1.0 — https://godotshaders.com/shader/2d-dissolve-with-burn-edge/
+- heat_haze_shimmer.gdshader — Gerardo LCDF — CC0-1.0 — https://godotshaders.com/shader/yoshis-island-shimmer-heat-haze-distortion/
+- lightning_arc.gdshader — lumenfruit — MIT — https://godotshaders.com/shader/2d-lightning-electric-arc-plasma/
+- outline_inline_2d.gdshader — Juulpower — CC0-1.0 — https://godotshaders.com/shader/2d-outline-inline/
+- hit_flash.gdshader — triangledevv — MIT — https://godotshaders.com/shader/hit-flash-effect-shader/
+- screen_glass_shatter.gdshader — miwls — CC0-1.0 — https://godotshaders.com/shader/simple-glass-broken/
+- bloom_screen.gdshader — VEGAMETA — CC0-1.0 — https://godotshaders.com/shader/bloom/
+- glow_screen_cheap.gdshader — GDQuest — MIT — https://github.com/gdquest-demos/godot-4-VFX-assets/blob/main/to_sort/shaders/glow.gdshader
+- shield_bubble_2d.gdshader — Pan — CC0-1.0 — https://godotshaders.com/shader/hexagon-shield/
+- afterimage_ghost.gdshader — Opus 5.5 (original deste projeto) — CC0-1.0 — (original)
+- smoke_puff_toon.gdshader — Opus 5.5 (original deste projeto) — CC0-1.0 — (original)
+
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+
+===== MIT License =====
+Copyright (c) alfroids (chromatic_aberration_radial)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===== MIT License =====
+Copyright (c) lumenfruit (lightning_arc)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===== MIT License =====
+Copyright (c) triangledevv (hit_flash)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===== MIT License =====
+Copyright (c) 2023-present GDQuest (glow_screen_cheap)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+

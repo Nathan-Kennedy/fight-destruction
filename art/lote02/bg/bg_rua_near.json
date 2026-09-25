@@ -1,0 +1,42 @@
+{
+  "asset_id": "bg_rua_near",
+  "revision": 2,
+  "kind": "background_layer",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "8.1–8.3",
+  "prompt_text": "Use case: stylized-concept. Generate bg_rua_near revision 2, isolated foreground city strip for 2D side-view fighting game. Match supplied art/concept/lote01/ui_tela_gameplay_hud.png as style reference: refined cel-shaded anime illustration, crisp dark outlines #15101C, golden-hour light from left, cool dark shadows. Highest supported native resolution, ideally 3840x1920, aspect ratio 2:1, never below 1536 on longest edge. Original Nova Aurora hillside street with cable-tram track embedded in cobblestones, Victorian row-house facades with curved Japanese tile roofs, red paper lanterns strung on wires, a flowering cherry tree and street lamp. Orthographic frontal/side composition suitable for layered parallax; darker foreground, bottom-aligned continuous strip reaching bottom canvas edge. No people, fighters, HUD, text, brands, recognizable movie landmarks. Transparent background above buildings and furniture, no painted sky, clean silhouette edges without color fringes. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes SELF-REVIEW CORRECTION: Foreground strip ONLY, no distant skyline, no skyscrapers, no monorail, no backdrop visible through gaps. Those are separate assets. Strict front elevation for row houses and side view street, keep depth shallow. Isolate the foreground architecture and furniture on perfectly clean alpha, no red/magenta fringe. Single regeneration to fix background contamination and unwanted distant layer.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 1,
+    "rows": 1,
+    "frames": 1
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/bg/bg_rua_near.png",
+    "art/lote02/bg/bg_rua_near.json"
+  ],
+  "notes": [
+    "Maior resolução solicitada; saída 1774×887.",
+    "model_id exato não exposto."
+  ],
+  "self_review": {
+    "opened": true,
+    "compared_with_prompt_and_references": true,
+    "regenerations": 1,
+    "initial_findings": [
+      "Skyline indevida incorporada ao fundo; bordas contaminadas."
+    ],
+    "decision": "needs_attention",
+    "final_findings": [
+      "Skyline removida, vista frontal corrigida, objetos solicitados presentes.",
+      "Resíduos vermelhos/amarelos persistem em torno da árvore, luminária e cabos. Não aprovada para uso final."
+    ],
+    "initial_prompt_text": "Use case: stylized-concept. Generate bg_rua_near revision 2, isolated foreground city strip for 2D side-view fighting game. Match supplied art/concept/lote01/ui_tela_gameplay_hud.png as style reference: refined cel-shaded anime illustration, crisp dark outlines #15101C, golden-hour light from left, cool dark shadows. Highest supported native resolution, ideally 3840x1920, aspect ratio 2:1, never below 1536 on longest edge. Original Nova Aurora hillside street with cable-tram track embedded in cobblestones, Victorian row-house facades with curved Japanese tile roofs, red paper lanterns strung on wires, a flowering cherry tree and street lamp. Orthographic frontal/side composition suitable for layered parallax; darker foreground, bottom-aligned continuous strip reaching bottom canvas edge. No people, fighters, HUD, text, brands, recognizable movie landmarks. Transparent background above buildings and furniture, no painted sky, clean silhouette edges without color fringes. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes"
+  }
+}

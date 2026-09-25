@@ -1,0 +1,17 @@
+{
+  "asset_id": "oga_expl0it3r_applause",
+  "revision": 1,
+  "kind": "audio",
+  "status": "integrated",
+  "source_url": "https://opengameart.org/content/applause-in-a-large-hall-or-church",
+  "provider": "third_party",
+  "author": "eXpl0it3r (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): eXpl0it3r (OpenGameArt)",
+  "files": [
+    "applause-clapping-church-crowd-immersive.wav",
+    "pagina_fonte.html"
+  ],
+  "notes": "Aplausos de multidão (39 s). Recortado em reações de 'uau' e KO."
+}

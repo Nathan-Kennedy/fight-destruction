@@ -1,0 +1,16 @@
+{
+ "frames": 64,
+ "cols": 8,
+ "frame_w": 128,
+ "frame_h": 128,
+ "pivot": [
+  64,
+  64
+ ],
+ "fps": 60,
+ "loop": false,
+ "px_per_world_px": 4,
+ "source": "oga_para_particlefx-1/particlefx_14.png",
+ "license": "CC0",
+ "origem": "art/third_party/oga_para_particlefx-1/origem.json"
+}

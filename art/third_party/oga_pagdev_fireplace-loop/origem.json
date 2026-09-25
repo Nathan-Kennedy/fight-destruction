@@ -1,0 +1,17 @@
+{
+  "asset_id": "oga_pagdev_fireplace_loop",
+  "revision": 1,
+  "kind": "audio",
+  "status": "integrated",
+  "source_url": "https://opengameart.org/content/fireplace-sound-loop",
+  "provider": "third_party",
+  "author": "pagdev (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): pagdev (OpenGameArt)",
+  "files": [
+    "fire.wav",
+    "pagina_fonte.html"
+  ],
+  "notes": "Fogo crepitando em loop (29 s). Recortado para o loop de fogo do cano de gás."
+}

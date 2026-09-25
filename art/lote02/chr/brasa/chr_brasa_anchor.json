@@ -1,0 +1,28 @@
+﻿{
+    "asset_id":  "chr_brasa_anchor",
+    "revision":  1,
+    "kind":  "character_anchor",
+    "status":  "candidate",
+    "provider":  "openai",
+    "model_id":  null,
+    "prompt_file":  "Docs/arte/prompts_arte_lote02.md",
+    "prompt_section":  "2.0",
+    "prompt_text":  "Use case: stylized-concept. Asset: chr_brasa_anchor, a production character identity model sheet, 1536x1024 PNG. Input image 1 is STYLE REFERENCE ONLY: match its clean cel-shaded anime game illustration, dark outlines and warm sunset light from the left; do not reproduce its scene, UI, or characters. Character model sheet of BRASA, medium-weight female fighter: athletic adult woman, medium brown skin, dark-brown high ponytail, orange forehead headband with loose tails, graphite crop top with orange details, large orange and graphite mechanical gauntlets, orange and graphite cargo pants, orange boots with white soles. Lock this complete identity. Three views on a fully transparent background: strict side view facing right (large, full body), front view, back view, plus a close-up of the face and hands. Neutral standing pose. Clean cel-shaded anime illustration, thick dark outline #15101C, two-tone flat shading, crisp orange rim light. Consistent proportions, outfit and mechanical gauntlet design across all views. No text, no labels, no grid lines, no ground, no drop shadow, no other characters, no held objects, no shield bubble, no stun stars. If actual transparency is impossible use flat pure magenta #FF00FF, no gradient or shadow.",
+    "reference_images":  [
+                             "art/concept/lote01/ui_tela_gameplay_hud.png"
+                         ],
+    "grid":  {
+                 "columns":  null,
+                 "rows":  null,
+                 "frames":  null
+             },
+    "loop":  false,
+    "output_files":  [
+                         "art/lote02/chr/brasa/chr_brasa_anchor.png"
+                     ],
+    "notes":  [
+                  "A ferramenta não informou o identificador exato do modelo; model_id=null.",
+                  "Referência enviada por referenced_image_paths e geração concluída.",
+                  "PNG RGBA 1536x1024. Fundo transparente confirmado por amostragem alfa=0; a prévia exibe RGB marrom oculto nos pixels transparentes."
+              ]
+}

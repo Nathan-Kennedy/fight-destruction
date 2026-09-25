@@ -1,0 +1,33 @@
+{
+  "asset_id": "fx_acerto_leve",
+  "revision": 1,
+  "kind": "vfx_flipbook",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "5",
+  "prompt_text": "Use case: stylized-concept. Asset: fx_acerto_leve, production candidate standalone compositable VFX. Input image 1 is the mandatory gameplay STYLE reference only; do not reproduce the scene or HUD. 8-frame VFX flipbook of a small light-hit spark, centered in each cell, grows and fades smoothly across frames, anime platform-fighter style, bright glossy pale amber colors with a white core, transparent background, no text. Frames: tiny seed, small spark, pointed four-ray flash, peak compact star, shorter splitting rays, fading small streaks, tiny remnants, almost extinguished. Non-looping; keep it compact and distinctly lighter than a heavy-hit explosion.\nSprite sheet for a 2D side-view fighting game. Strict side view, directional motion facing RIGHT. Grid of 4 columns × 2 rows, 8 equal cells, read left-to-right then top-to-bottom as frames 1 to 8 of ONE continuous animation. The SAME effect in every cell: consistent design, colors and scale of detail; only the animation state changes, with smooth in-between motion from one frame to the next. Effects centered horizontally in each cell; lowest point for grounded effects on the same baseline at 88% of cell height; floating effects centered vertically; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the effect's accent color. Fully transparent background (if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow). No grid lines, no frame numbers, no text, no ground, no drop shadow, no characters or scenery. Light from sunset at the left, consistent with reference. Output PNG 1536×768, 384×384 cells. Do not draw a checkerboard.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "frames": 8
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/fx/fx_acerto_leve.png"
+  ],
+  "notes": [
+    "Gerado pela ferramenta integrada image_gen; model_id real não exposto pelo retorno.",
+    "Regras da seção 1 adaptadas a efeitos sem personagem; dimensões solicitadas 1536×768. Saída original preservada sem redimensionamento."
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "result": "candidate"
+    }
+  ]
+}

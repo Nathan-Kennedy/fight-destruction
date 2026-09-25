@@ -1,0 +1,29 @@
+﻿{
+  "asset_id": "chr_faisca_anchor",
+  "revision": 1,
+  "kind": "character_anchor",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": "gpt-image (exact version undisclosed)",
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "2.0",
+  "prompt_text": "Use case: stylized-concept. Production character identity model sheet, asset chr_faisca_anchor, 1536x1024 PNG. Use the supplied gameplay image as STYLE reference, especially the cyan fighter and his HUD portrait; do not reproduce the environment or UI. Character model sheet of Faísca, a young slim male lightweight fighter, white hair with cyan streaks spiked backward, long cyan and white scarf, short white and cyan high-collar jacket, black fingerless gloves, tight black trousers with cyan piping, black and white sneakers with luminous cyan soles. Three views on a fully transparent background: strict side view facing RIGHT (large, full body), front view, back view, plus close-ups of the face and hands. Neutral standing pose. Clean cel-shaded anime illustration matching the reference, thick dark outline #15101C, two-tone flat shading, crisp cyan rim light, warm dusk light from the left. Identical proportions, costume and colors in all views. No text, grid lines, numbers, ground, drop shadows, other fighters, props, shield bubbles or stun stars. If true transparency is impossible use flat pure magenta #FF00FF without gradient or shadow.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": null,
+    "rows": null,
+    "frames": 3
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/chr/faisca/chr_faisca_anchor.png",
+    "art/lote02/chr/faisca/chr_faisca_anchor.json"
+  ],
+  "notes": [
+    "Fundo opaco com gradiente escuro; não respeitou transparência nem alternativa magenta.",
+    "Âncora livre: três vistas e detalhes adicionais, sem grade de animação.",
+    "Versão exata do modelo não exposta pela ferramenta."
+  ]
+}

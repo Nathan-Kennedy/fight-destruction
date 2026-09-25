@@ -1,0 +1,203 @@
+{
+  "asset_id": "chr_bloco_strong",
+  "fighter": "bloco",
+  "anim": "strong",
+  "status": "candidate",
+  "frame_w": 374,
+  "frame_h": 292,
+  "frames": 8,
+  "pivot": [
+    187,
+    268
+  ],
+  "fps": 18,
+  "loop": false,
+  "px_per_world_px": 4,
+  "altura_mundo_px": 56,
+  "escala": 0.545,
+  "fonte": {
+    "arquivo": "art/lote02/chr/bloco/chr_bloco_strong.png",
+    "revision": 2,
+    "grade": [
+      4,
+      2
+    ],
+    "celula_src": [
+      384,
+      512
+    ],
+    "fundo": "alpha original (61% transparente)",
+    "linha_base_src": 437.5,
+    "referencia_escala": "idle"
+  },
+  "metricas": [
+    {
+      "frame": 1,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 358,
+      "altura_ratio": 0.871,
+      "area_px": 71775,
+      "area_ratio": 0.76,
+      "hist_dist_idle1": 0.284,
+      "hist_dist_anchor": 0.183,
+      "pivot_src": [
+        174.0,
+        456.0
+      ],
+      "pivot_dx_rel": -0.044,
+      "pe_dy_rel": 0.045,
+      "flags": []
+    },
+    {
+      "frame": 2,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 334,
+      "altura_ratio": 0.813,
+      "area_px": 76157,
+      "area_ratio": 0.806,
+      "hist_dist_idle1": 0.276,
+      "hist_dist_anchor": 0.177,
+      "pivot_src": [
+        173.4,
+        454.0
+      ],
+      "pivot_dx_rel": -0.045,
+      "pe_dy_rel": 0.04,
+      "flags": [
+        "ALTURA 0.81"
+      ]
+    },
+    {
+      "frame": 3,
+      "aereo": false,
+      "ilhas_removidas": 5,
+      "altura_src_px": 330,
+      "altura_ratio": 0.803,
+      "area_px": 74706,
+      "area_ratio": 0.791,
+      "hist_dist_idle1": 0.272,
+      "hist_dist_anchor": 0.168,
+      "pivot_src": [
+        175.5,
+        455.0
+      ],
+      "pivot_dx_rel": -0.04,
+      "pe_dy_rel": 0.043,
+      "flags": [
+        "ALTURA 0.80"
+      ]
+    },
+    {
+      "frame": 4,
+      "aereo": false,
+      "ilhas_removidas": 8,
+      "altura_src_px": 308,
+      "altura_ratio": 0.749,
+      "area_px": 70176,
+      "area_ratio": 0.743,
+      "hist_dist_idle1": 0.276,
+      "hist_dist_anchor": 0.193,
+      "pivot_src": [
+        159.5,
+        455.0
+      ],
+      "pivot_dx_rel": -0.079,
+      "pe_dy_rel": 0.043,
+      "flags": [
+        "ALTURA 0.75",
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 5,
+      "aereo": false,
+      "ilhas_removidas": 9,
+      "altura_src_px": 356,
+      "altura_ratio": 0.866,
+      "area_px": 82842,
+      "area_ratio": 0.877,
+      "hist_dist_idle1": 0.284,
+      "hist_dist_anchor": 0.205,
+      "pivot_src": [
+        175.6,
+        421.0
+      ],
+      "pivot_dx_rel": -0.04,
+      "pe_dy_rel": -0.04,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 6,
+      "aereo": false,
+      "ilhas_removidas": 11,
+      "altura_src_px": 368,
+      "altura_ratio": 0.895,
+      "area_px": 73101,
+      "area_ratio": 0.774,
+      "hist_dist_idle1": 0.267,
+      "hist_dist_anchor": 0.161,
+      "pivot_src": [
+        184.8,
+        421.0
+      ],
+      "pivot_dx_rel": -0.018,
+      "pe_dy_rel": -0.04,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 7,
+      "aereo": false,
+      "ilhas_removidas": 6,
+      "altura_src_px": 335,
+      "altura_ratio": 0.815,
+      "area_px": 70461,
+      "area_ratio": 0.746,
+      "hist_dist_idle1": 0.274,
+      "hist_dist_anchor": 0.173,
+      "pivot_src": [
+        207.0,
+        421.0
+      ],
+      "pivot_dx_rel": 0.036,
+      "pe_dy_rel": -0.04,
+      "flags": [
+        "ALTURA 0.82",
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 8,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 353,
+      "altura_ratio": 0.859,
+      "area_px": 72522,
+      "area_ratio": 0.768,
+      "hist_dist_idle1": 0.287,
+      "hist_dist_anchor": 0.185,
+      "pivot_src": [
+        191.0,
+        421.0
+      ],
+      "pivot_dx_rel": -0.002,
+      "pe_dy_rel": -0.04,
+      "flags": []
+    }
+  ],
+  "frames_marcados": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "gerado_por": "tools/art/process_sheets.py",
+  "gerado_em": "2026-09-24T18:04:05"
+}

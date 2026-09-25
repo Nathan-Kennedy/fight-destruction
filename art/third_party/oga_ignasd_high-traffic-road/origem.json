@@ -1,0 +1,17 @@
+{
+  "asset_id": "oga_ignasd_high_traffic_road",
+  "revision": 1,
+  "kind": "audio",
+  "status": "integrated",
+  "source_url": "https://opengameart.org/content/high-traffic-road-sounds",
+  "provider": "third_party",
+  "author": "ignasd (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): ignasd (OpenGameArt)",
+  "files": [
+    "gatve_Varniu_2.ogg",
+    "pagina_fonte.html"
+  ],
+  "notes": "Rua com trânsito (60 s, mono). Loop de ambiente da cidade."
+}

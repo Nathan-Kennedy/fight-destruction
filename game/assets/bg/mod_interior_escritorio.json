@@ -1,0 +1,12 @@
+{
+  "asset_id": "mod_interior_escritorio",
+  "size": [
+    1024,
+    512
+  ],
+  "opaco": true,
+  "fundo": "opaco (mantido)",
+  "ilhas_removidas": 0,
+  "fonte": "art/lote02/mod/mod_interior_escritorio.png",
+  "status": "candidate"
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": "mod_textura_vidro",
+  "revision": 1,
+  "kind": "tileable_texture",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "3",
+  "prompt_text": "Use case: stylized-concept. Production asset mod_textura_vidro for a 2D side-view fighting game. Output one PNG 1024x1024. Input image 1 is the mandatory STYLE REFERENCE, not the composition to reproduce: match its high-resolution cel-shaded anime illustration, thick dark outline #15101C, two-tone flat shading, crisp restrained rim light and retrofuturist city palette. Orthographic strict side/front view, sunset light from the left; no perspective convergence. Subject: seamless tileable front-view texture of one material, flat even lighting, no perspective: glass curtain wall with thin mullions and cold reflections. Opaque full-bleed background as specified for this material/layer. Flat even lighting for seamless tiling overrides directional sunset lighting: all four edges must match, no vignette or isolated focal feature. No characters, HUD, readable text, watermarks, ground planes, cast drop shadows or unrelated props. Draw only the requested layer/components, ready for combination with separately generated assets.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 1,
+    "rows": 1,
+    "frames": 1
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/mod/mod_textura_vidro.png"
+  ],
+  "notes": [
+    "model_id exato não exposto pela ferramenta integrada."
+  ],
+  "requested_size": "1024x1024",
+  "requested_transparency": false
+}

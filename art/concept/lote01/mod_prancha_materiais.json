@@ -1,0 +1,19 @@
+{
+  "asset_id": "mod_prancha_materiais",
+  "revision": 1,
+  "kind": "concept",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": "gpt-image",
+  "prompt_file": "Docs/arte/prompts_arte_lote01.md",
+  "prompt_section": "5.6",
+  "output_files": [
+    "art/concept/lote01/mod_prancha_materiais.png"
+  ],
+  "notes": [
+    "Gerado pela ferramenta nativa image_gen.imagegen; saída bruta copiada sem edição. model_id 'gpt-image' é o identificador nos metadados C2PA da saída; a ferramenta não expõe versão específica.",
+    "Negativo opcional da seção 4 não enviado: a ferramenta não oferece campo negative_prompt.",
+    "Tiles não são células de 64x64 pixels na saída. Inclui cenário e personagem adicionais; núcleo tem duas variantes intactas, sem três estados.",
+    "Resultado mistura ilustração e aparência pixelada; não atende rigorosamente à ausência de antialiasing."
+  ]
+}

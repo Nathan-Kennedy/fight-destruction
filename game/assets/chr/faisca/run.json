@@ -1,0 +1,193 @@
+{
+  "asset_id": "chr_faisca_run",
+  "fighter": "faisca",
+  "anim": "run",
+  "status": "candidate",
+  "frame_w": 260,
+  "frame_h": 220,
+  "frames": 8,
+  "pivot": [
+    130,
+    205
+  ],
+  "fps": 14,
+  "loop": true,
+  "px_per_world_px": 4,
+  "altura_mundo_px": 44,
+  "escala": 0.4084,
+  "fonte": {
+    "arquivo": "art/lote02/chr/faisca/chr_faisca_run.png",
+    "revision": 1,
+    "grade": [
+      4,
+      2
+    ],
+    "celula_src": [
+      384,
+      512
+    ],
+    "fundo": "alpha original (74% transparente)",
+    "linha_base_src": 469.5,
+    "referencia_escala": "idle"
+  },
+  "metricas": [
+    {
+      "frame": 1,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 409,
+      "altura_ratio": 0.949,
+      "area_px": 58514,
+      "area_ratio": 1.002,
+      "hist_dist_idle1": 0.17,
+      "hist_dist_anchor": 0.118,
+      "pivot_src": [
+        231.2,
+        489.0
+      ],
+      "pivot_dx_rel": 0.091,
+      "pe_dy_rel": 0.045,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 2,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 364,
+      "altura_ratio": 0.845,
+      "area_px": 43206,
+      "area_ratio": 0.74,
+      "hist_dist_idle1": 0.182,
+      "hist_dist_anchor": 0.132,
+      "pivot_src": [
+        201.5,
+        483.0
+      ],
+      "pivot_dx_rel": 0.022,
+      "pe_dy_rel": 0.031,
+      "flags": [
+        "ALTURA 0.84"
+      ]
+    },
+    {
+      "frame": 3,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 407,
+      "altura_ratio": 0.944,
+      "area_px": 45735,
+      "area_ratio": 0.783,
+      "hist_dist_idle1": 0.186,
+      "hist_dist_anchor": 0.125,
+      "pivot_src": [
+        161.4,
+        484.0
+      ],
+      "pivot_dx_rel": -0.071,
+      "pe_dy_rel": 0.034,
+      "flags": []
+    },
+    {
+      "frame": 4,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 407,
+      "altura_ratio": 0.944,
+      "area_px": 53551,
+      "area_ratio": 0.917,
+      "hist_dist_idle1": 0.18,
+      "hist_dist_anchor": 0.108,
+      "pivot_src": [
+        108.5,
+        484.0
+      ],
+      "pivot_dx_rel": -0.194,
+      "pe_dy_rel": 0.034,
+      "flags": []
+    },
+    {
+      "frame": 5,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 404,
+      "altura_ratio": 0.937,
+      "area_px": 55887,
+      "area_ratio": 0.957,
+      "hist_dist_idle1": 0.193,
+      "hist_dist_anchor": 0.119,
+      "pivot_src": [
+        155.6,
+        456.0
+      ],
+      "pivot_dx_rel": -0.084,
+      "pe_dy_rel": -0.031,
+      "flags": []
+    },
+    {
+      "frame": 6,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 329,
+      "altura_ratio": 0.763,
+      "area_px": 42114,
+      "area_ratio": 0.721,
+      "hist_dist_idle1": 0.19,
+      "hist_dist_anchor": 0.122,
+      "pivot_src": [
+        170.2,
+        416.0
+      ],
+      "pivot_dx_rel": -0.051,
+      "pe_dy_rel": -0.124,
+      "flags": [
+        "ALTURA 0.76",
+        "PES -0.12"
+      ]
+    },
+    {
+      "frame": 7,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 403,
+      "altura_ratio": 0.935,
+      "area_px": 45231,
+      "area_ratio": 0.775,
+      "hist_dist_idle1": 0.196,
+      "hist_dist_anchor": 0.14,
+      "pivot_src": [
+        162.5,
+        456.0
+      ],
+      "pivot_dx_rel": -0.068,
+      "pe_dy_rel": -0.031,
+      "flags": []
+    },
+    {
+      "frame": 8,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 402,
+      "altura_ratio": 0.933,
+      "area_px": 51552,
+      "area_ratio": 0.883,
+      "hist_dist_idle1": 0.169,
+      "hist_dist_anchor": 0.119,
+      "pivot_src": [
+        121.6,
+        455.0
+      ],
+      "pivot_dx_rel": -0.163,
+      "pe_dy_rel": -0.034,
+      "flags": []
+    }
+  ],
+  "frames_marcados": [
+    1,
+    2,
+    6
+  ],
+  "gerado_por": "tools/art/process_sheets.py",
+  "gerado_em": "2026-09-24T18:04:14"
+}

@@ -1,0 +1,20 @@
+{
+  "asset_id": "oga_faxcorp_electricity",
+  "revision": 1,
+  "kind": "audio",
+  "status": "integrated",
+  "source_url": "https://opengameart.org/content/electricity-game-sound-pack",
+  "provider": "third_party",
+  "author": "faxcorp (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): faxcorp (OpenGameArt)",
+  "files": [
+    "crackleelectricityloop.wav",
+    "groundhit.wav",
+    "pagina_fonte.html",
+    "shieldhit.wav",
+    "snaploop.wav"
+  ],
+  "notes": "4 dos WAV do pacote (crepitar em loop, estalos em loop, impacto de escudo, impacto no chão)."
+}

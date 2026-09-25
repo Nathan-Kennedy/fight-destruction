@@ -1,0 +1,12 @@
+{
+  "asset_id": "bg_elementos_ceu",
+  "size": [
+    1280,
+    853
+  ],
+  "opaco": false,
+  "fundo": "alpha original (73% transparente)",
+  "ilhas_removidas": 1,
+  "fonte": "art/lote02/bg/bg_elementos_ceu.png",
+  "status": "candidate"
+}

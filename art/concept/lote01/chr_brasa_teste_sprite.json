@@ -1,0 +1,19 @@
+{
+  "asset_id": "chr_brasa_teste_sprite",
+  "revision": 1,
+  "kind": "sprite_test",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": "gpt-image",
+  "prompt_file": "Docs/arte/prompts_arte_lote01.md",
+  "prompt_section": "5.9",
+  "output_files": [
+    "art/concept/lote01/chr_brasa_teste_sprite.png"
+  ],
+  "notes": [
+    "Gerado pela ferramenta nativa image_gen.imagegen; saída bruta copiada sem edição. model_id 'gpt-image' é o identificador nos metadados C2PA da saída; a ferramenta não expõe versão específica.",
+    "Negativo opcional da seção 4 não enviado: a ferramenta não oferece campo negative_prompt.",
+    "Prompt 5.9 preservado sem acrescentar regras comuns: não contém o marcador [regras comuns].",
+    "Saída RGBA 2103x748 com transparência real; não atende ao canvas 96x96, altura exata de 50 pixels, contorno/rim light de 1 pixel nem paleta de 16 cores (147171 valores RGBA distintos). Há antialiasing e vista em três quartos em parte das poses. É candidato de conceito, não sprite pronto."
+  ]
+}

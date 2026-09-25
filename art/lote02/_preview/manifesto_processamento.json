@@ -1,0 +1,23 @@
+{
+  "bg_ceu": "1280×720; opaco (mantido)",
+  "bg_rua_near": "1280×640; alpha original (16% transparente)",
+  "bg_skyline_far": "1280×720; alpha original (59% transparente)",
+  "bg_skyline_mid": "1280×720; alpha original (29% transparente)",
+  "fx_acerto_forte": "tira 8×390x304, loop=False; alpha original (89% transparente)",
+  "fx_acerto_leve": "tira 8×394x354, loop=False; alpha original (95% transparente)",
+  "fx_escudo": "tira 8×354x372, loop=True; alpha original (80% transparente)",
+  "fx_escudo_quebra": "tira 8×386x372, loop=False; alpha original (88% transparente)",
+  "mod_textura_divisoria": "256×256; costura x/y 0.33/0.71 (ok, sem blend)",
+  "mod_textura_vidro": "256×256; costura x/y 0.75/1.70 -> blend de borda aplicado -> 0.56/0.88",
+  "chr_bloco_anchor": "anchor.png (alpha original (39% transparente); 0 ilhas removidas)",
+  "chr_brasa_anchor": "anchor.png (alpha original (51% transparente); 1 ilhas removidas)",
+  "chr_faisca_anchor": "anchor.png (alpha original (57% transparente); 0 ilhas removidas)",
+  "mod_textura_concreto": "256×256; costura x/y 0.61/0.70 (ok, sem blend)",
+  "mod_textura_nucleo": "256×256; costura x/y 0.54/1.41 -> blend de borda aplicado -> 0.46/0.34",
+  "mod_textura_tijolo": "256×256; costura x/y 0.71/0.14 (ok, sem blend)",
+  "mod_textura_entulho": "256×256; costura x/y 0.74/0.87 (ok, sem blend)",
+  "bg_elementos_ceu": "1280×853; alpha original (73% transparente)",
+  "mod_fachada_detalhes": "8 recortes em escala da fonte; alpha original (62% transparente)",
+  "mod_interior_escritorio": "1024×512; opaco (mantido)",
+  "mod_interior_loja": "1024×512; opaco (mantido)"
+}

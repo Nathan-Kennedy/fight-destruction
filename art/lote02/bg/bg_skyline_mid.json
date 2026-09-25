@@ -1,0 +1,42 @@
+{
+  "asset_id": "bg_skyline_mid",
+  "revision": 2,
+  "kind": "background_layer",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "8.1–8.3",
+  "prompt_text": "Use case: stylized-concept. Create bg_skyline_mid revision 2 as an isolated transparent PNG parallax layer for a 2D side-view fighting game. Supplied art/concept/lote01/ui_tela_gameplay_hud.png is the style reference only: cel-shaded anime architecture, dark #15101C outlines, warm golden-hour light from left and cool violet shadows. Request highest native resolution supported, ideally 3840x2160 in 16:9 and never less than 1536 on longest edge. Original Nova Aurora city: skyscrapers with curved pagoda crowns and lantern-lit balconies, elevated monorail with a clear streamlined train, neon signage made of illegible abstract shapes, flowering cherry trees between buildings, original Pacific-coast/Tokyo fusion. Frontal orthographic view, medium-distance layer, rich precise architecture, lower saturation than playable fighters. Flat continuous bottom edge at the canvas bottom. Actual transparent alpha sky above and between silhouettes; clean antialiasing without colored contamination; if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow. No painted sky, no clouds, no sun, no people, no HUD, no readable text or real logos, no copied movie landmarks. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes SELF-REVIEW CORRECTION: The first output had red and blue alpha-edge contamination. For this single regeneration use the expressly allowed fallback: fully OPAQUE uniform pure magenta #FF00FF sky, with crisp clean building silhouettes, no alpha cutout processing, no red/blue fringes, no gradients in the magenta background. The game pipeline will remove the magenta later. Retain all original city-layer design constraints.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 1,
+    "rows": 1,
+    "frames": 1
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/bg/bg_skyline_mid.png",
+    "art/lote02/bg/bg_skyline_mid.json"
+  ],
+  "notes": [
+    "Maior resolução solicitada; saída 1672×941.",
+    "model_id exato não exposto."
+  ],
+  "self_review": {
+    "opened": true,
+    "compared_with_prompt_and_references": true,
+    "regenerations": 1,
+    "initial_findings": [
+      "Contaminação de bordas vermelha e azul."
+    ],
+    "decision": "needs_attention",
+    "final_findings": [
+      "Persistem franjas coloridas nas silhuetas; fallback magenta uniforme não foi atendido.",
+      "Arquitetura, monotrilho, lanternas e cerejeiras presentes; sem texto legível. Não aprovada para uso final."
+    ],
+    "initial_prompt_text": "Use case: stylized-concept. Create bg_skyline_mid revision 2 as an isolated transparent PNG parallax layer for a 2D side-view fighting game. Supplied art/concept/lote01/ui_tela_gameplay_hud.png is the style reference only: cel-shaded anime architecture, dark #15101C outlines, warm golden-hour light from left and cool violet shadows. Request highest native resolution supported, ideally 3840x2160 in 16:9 and never less than 1536 on longest edge. Original Nova Aurora city: skyscrapers with curved pagoda crowns and lantern-lit balconies, elevated monorail with a clear streamlined train, neon signage made of illegible abstract shapes, flowering cherry trees between buildings, original Pacific-coast/Tokyo fusion. Frontal orthographic view, medium-distance layer, rich precise architecture, lower saturation than playable fighters. Flat continuous bottom edge at the canvas bottom. Actual transparent alpha sky above and between silhouettes; clean antialiasing without colored contamination; if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow. No painted sky, no clouds, no sun, no people, no HUD, no readable text or real logos, no copied movie landmarks. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes"
+  }
+}

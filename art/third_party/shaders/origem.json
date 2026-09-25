@@ -1,0 +1,153 @@
+{
+  "asset_id": "third_party_shaders",
+  "revision": 1,
+  "kind": "shader",
+  "status": "candidate",
+  "provider": "third_party",
+  "source_url": "ver 'shaders[].source_url'",
+  "author": "vários (ver lista)",
+  "license": "CC0-1.0 e MIT (por arquivo)",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "MIT exige manter o aviso: alfroids, lumenfruit, triangledevv, GDQuest (ver LICENSE.txt).",
+  "files": [
+    "shockwave_zawarudo.gdshader",
+    "shockwave_ring_simple.gdshader",
+    "speedlines_anime.gdshader",
+    "chromatic_aberration_radial.gdshader",
+    "impact_frame_manga.gdshader",
+    "impact_frame_threshold.gdshader",
+    "dissolve_burn_edge.gdshader",
+    "heat_haze_shimmer.gdshader",
+    "lightning_arc.gdshader",
+    "outline_inline_2d.gdshader",
+    "hit_flash.gdshader",
+    "screen_glass_shatter.gdshader",
+    "bloom_screen.gdshader",
+    "glow_screen_cheap.gdshader",
+    "shield_bubble_2d.gdshader",
+    "afterimage_ghost.gdshader",
+    "smoke_puff_toon.gdshader"
+  ],
+  "shaders": [
+    {
+      "file": "shockwave_zawarudo.gdshader",
+      "author": "IceTeea",
+      "source_url": "https://godotshaders.com/shader/za-warudo-shockwave-effect/",
+      "license": "CC0-1.0",
+      "adaptation": "nenhuma"
+    },
+    {
+      "file": "shockwave_ring_simple.gdshader",
+      "author": "snesmocha",
+      "source_url": "https://godotshaders.com/shader/impact-shader/",
+      "license": "CC0-1.0",
+      "adaptation": "SCREEN_TEXTURE (G3) -> hint_screen_texture; literal 1.0"
+    },
+    {
+      "file": "speedlines_anime.gdshader",
+      "author": "ProfesorShader",
+      "source_url": "https://godotshaders.com/shader/anime-style-speedlines-w-or-w-o-distortion/",
+      "license": "CC0-1.0",
+      "adaptation": "nenhuma"
+    },
+    {
+      "file": "chromatic_aberration_radial.gdshader",
+      "author": "alfroids",
+      "source_url": "https://godotshaders.com/shader/radial-chromatic-aberration-2/",
+      "license": "MIT",
+      "adaptation": "nenhuma"
+    },
+    {
+      "file": "impact_frame_manga.gdshader",
+      "author": "hailyn",
+      "source_url": "https://godotshaders.com/shader/screen-sampled-black-and-white-manga-hit-impact-post-process-shader/",
+      "license": "CC0-1.0",
+      "adaptation": "nenhuma"
+    },
+    {
+      "file": "impact_frame_threshold.gdshader",
+      "author": "TTien63",
+      "source_url": "https://godotshaders.com/shader/threshold-silohoutte-effect/",
+      "license": "CC0-1.0",
+      "adaptation": "nenhuma"
+    },
+    {
+      "file": "dissolve_burn_edge.gdshader",
+      "author": "mreliptik",
+      "source_url": "https://godotshaders.com/shader/2d-dissolve-with-burn-edge/",
+      "license": "CC0-1.0",
+      "adaptation": "nenhuma"
+    },
+    {
+      "file": "heat_haze_shimmer.gdshader",
+      "author": "Gerardo LCDF",
+      "source_url": "https://godotshaders.com/shader/yoshis-island-shimmer-heat-haze-distortion/",
+      "license": "CC0-1.0",
+      "adaptation": "nenhuma"
+    },
+    {
+      "file": "lightning_arc.gdshader",
+      "author": "lumenfruit",
+      "source_url": "https://godotshaders.com/shader/2d-lightning-electric-arc-plasma/",
+      "license": "MIT",
+      "adaptation": "repeat_enable/repeat_disable nos samplers"
+    },
+    {
+      "file": "outline_inline_2d.gdshader",
+      "author": "Juulpower",
+      "source_url": "https://godotshaders.com/shader/2d-outline-inline/",
+      "license": "CC0-1.0",
+      "adaptation": "sampler renomeado texture->tex; pow(...,2.0)"
+    },
+    {
+      "file": "hit_flash.gdshader",
+      "author": "triangledevv",
+      "source_url": "https://godotshaders.com/shader/hit-flash-effect-shader/",
+      "license": "MIT",
+      "adaptation": "corrigido ';' faltando; flash_amount + flash_color; respeita modulate"
+    },
+    {
+      "file": "screen_glass_shatter.gdshader",
+      "author": "miwls",
+      "source_url": "https://godotshaders.com/shader/simple-glass-broken/",
+      "license": "CC0-1.0",
+      "adaptation": "nenhuma"
+    },
+    {
+      "file": "bloom_screen.gdshader",
+      "author": "VEGAMETA",
+      "source_url": "https://godotshaders.com/shader/bloom/",
+      "license": "CC0-1.0",
+      "adaptation": "defaults float 1.0/2.0"
+    },
+    {
+      "file": "glow_screen_cheap.gdshader",
+      "author": "GDQuest",
+      "source_url": "https://github.com/gdquest-demos/godot-4-VFX-assets/blob/main/to_sort/shaders/glow.gdshader",
+      "license": "MIT",
+      "adaptation": "nenhuma"
+    },
+    {
+      "file": "shield_bubble_2d.gdshader",
+      "author": "Pan",
+      "source_url": "https://godotshaders.com/shader/hexagon-shield/",
+      "license": "CC0-1.0",
+      "adaptation": "hint_color->source_color; variáveis inicializadas; repeat_enable"
+    },
+    {
+      "file": "afterimage_ghost.gdshader",
+      "author": "Opus 5.5 (original deste projeto)",
+      "source_url": "(original)",
+      "license": "CC0-1.0",
+      "adaptation": "original"
+    },
+    {
+      "file": "smoke_puff_toon.gdshader",
+      "author": "Opus 5.5 (original deste projeto)",
+      "source_url": "(original)",
+      "license": "CC0-1.0",
+      "adaptation": "original"
+    }
+  ],
+  "notes": "Código de godotshaders.com transcrito via leitura da página (o site bloqueia download direto por bot-check); conferir contra a página em caso de dúvida. Todos compilam em Godot 4.7.2 (teste: ColorRect com ShaderMaterial, Forward+, sem SHADER ERROR). Rejeitados: 'Cracked Glass' (CC BY-NC-SA 3.0, port de Shadertoy), 'Glass Shatter Impact Points' e 'Stylized Smoke' (spatial/3D), 'Positioned Shockwave' (duplicado do impact shader), 'Sprite 2D Outline' de ImKJ (não é outline de silhueta)."
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": "oga_para_particlefx_1",
+  "revision": 1,
+  "kind": "vfx",
+  "status": "candidate",
+  "source_url": "https://opengameart.org/content/animated-particle-effects-1",
+  "provider": "third_party",
+  "author": "para (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): para (OpenGameArt)",
+  "files": [
+    "particlefx_01.png",
+    "particlefx_02.png",
+    "particlefx_03.png",
+    "particlefx_04.png",
+    "particlefx_05.png",
+    "particlefx_06.png",
+    "particlefx_07.png",
+    "particlefx_08.png",
+    "particlefx_09.png",
+    "particlefx_10.png",
+    "particlefx_11.png",
+    "particlefx_12.png",
+    "particlefx_13.png",
+    "particlefx_14.png"
+  ],
+  "notes": "14 folhas 1024x1024 (grade 8x8, frames de 128px): anéis de choque (dourado, laranja, azul, violeta), anel de fumaça cinza, explosão com fumaça, chama, jato vertical, faíscas. 'para_CC0_particlefx-1.zip'."
+}

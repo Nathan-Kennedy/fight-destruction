@@ -1,0 +1,39 @@
+{
+  "asset_id": "fx_acerto_forte",
+  "revision": 1,
+  "kind": "vfx_flipbook",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "5",
+  "prompt_text": "Use case: stylized-concept. Asset: fx_acerto_forte, production candidate standalone compositable VFX. Input image 1 is the mandatory gameplay STYLE reference only; do not reproduce the scene or HUD. 8-frame VFX flipbook of heavy-hit impact star with a brilliant white core, amber-orange rays and sharp directional streaks to the right. Frames: compact anticipation spark, ignition, fast outward star expansion, maximum white-core jagged starburst, branching rays, dissipating streaks, scattered faint sparks, near-vanished tiny remnants. Non-looping, centered in each cell, grows and fades smoothly across frames as specified, anime platform-fighter style, bright glossy colors with a white core, transparent background, no text.\nSprite sheet for a 2D side-view fighting game. Strict side view, directional motion facing RIGHT. Grid of 4 columns × 2 rows, 8 equal cells, read left-to-right then top-to-bottom as frames 1 to 8 of ONE continuous animation. The SAME effect in every cell: consistent design, colors and scale of detail; only the animation state changes, with smooth in-between motion from one frame to the next. Effects centered horizontally in each cell; lowest point for grounded effects on the same baseline at 88% of cell height; floating effects centered vertically; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the effect's accent color. Fully transparent background (if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow). No grid lines, no frame numbers, no text, no ground, no drop shadow, no characters or scenery. Light from sunset at the left, consistent with reference. Output PNG 1536×768, 384×384 cells. Do not draw a checkerboard.\nCRITICAL CORRECTION: keep every ray, spark and glow strictly INSIDE the middle 70% of its cell width and height. At least 15% empty transparent padding on EACH side of EVERY cell. No clipping at outer image edges, no contact between adjacent frames. Keep the impact origin exactly at each cell center even in follow-through. Canvas must be 1536 by 768 pixels.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "frames": 8
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/fx/fx_acerto_forte.png"
+  ],
+  "notes": [
+    "Gerado pela ferramenta integrada image_gen; model_id real não exposto pelo retorno.",
+    "Regras da seção 1 adaptadas a efeitos sem personagem; dimensões solicitadas 1536×768. Saída original preservada sem redimensionamento.",
+    "Primeira geração com margem insuficiente; realizada uma nova tentativa com instrução de padding reforçada."
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_text": "Use case: stylized-concept. Asset: fx_acerto_forte, production candidate standalone compositable VFX. Input image 1 is the mandatory gameplay STYLE reference only; do not reproduce the scene or HUD. 8-frame VFX flipbook of heavy-hit impact star with a brilliant white core, amber-orange rays and sharp directional streaks to the right. Frames: compact anticipation spark, ignition, fast outward star expansion, maximum white-core jagged starburst, branching rays, dissipating streaks, scattered faint sparks, near-vanished tiny remnants. Non-looping, centered in each cell, grows and fades smoothly across frames as specified, anime platform-fighter style, bright glossy colors with a white core, transparent background, no text.\nSprite sheet for a 2D side-view fighting game. Strict side view, directional motion facing RIGHT. Grid of 4 columns × 2 rows, 8 equal cells, read left-to-right then top-to-bottom as frames 1 to 8 of ONE continuous animation. The SAME effect in every cell: consistent design, colors and scale of detail; only the animation state changes, with smooth in-between motion from one frame to the next. Effects centered horizontally in each cell; lowest point for grounded effects on the same baseline at 88% of cell height; floating effects centered vertically; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the effect's accent color. Fully transparent background (if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow). No grid lines, no frame numbers, no text, no ground, no drop shadow, no characters or scenery. Light from sunset at the left, consistent with reference. Output PNG 1536×768, 384×384 cells. Do not draw a checkerboard.",
+      "result": "visual_failure_insufficient_padding"
+    },
+    {
+      "attempt": 2,
+      "result": "candidate"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "asset_id": "mod_fachada_detalhes",
+  "elementos": [
+    "mod_fachada_detalhes_janela.png",
+    "mod_fachada_detalhes_toldo.png",
+    "mod_fachada_detalhes_neon.png",
+    "mod_fachada_detalhes_ar_condicionado.png",
+    "mod_fachada_detalhes_calha.png",
+    "mod_fachada_detalhes_escada_incendio.png",
+    "mod_fachada_detalhes_caixa_dagua.png",
+    "mod_fachada_detalhes_antena.png"
+  ],
+  "fundo": "alpha original (62% transparente)",
+  "fonte": "art/lote02/mod/mod_fachada_detalhes.png",
+  "escala": 1.0,
+  "status": "candidate"
+}

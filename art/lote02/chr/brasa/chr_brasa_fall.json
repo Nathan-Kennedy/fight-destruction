@@ -1,0 +1,47 @@
+﻿{
+  "asset_id": "chr_brasa_fall",
+  "revision": 1,
+  "kind": "sprite_sheet",
+  "status": "candidate",
+  "provider": "OpenAI image_gen",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "§0, §1, §2.1, §8.3",
+  "prompt_text": "Create chr_brasa_fall. Use case: stylized-concept. Production fighting game animation, ONE sheet, exactly SIX frames in THREE columns TWO rows. Falling loop in the air: arms up for balance, cloth and hair blowing upward, slight rotation back and forth; frame six smoothly returns to frame one. Only Brasa, athletic brown-skinned woman, dark brown high ponytail, orange headband with loose tails, graphite crop top with orange details, large orange/graphite mechanical gauntlets, graphite/orange cargo trousers, orange boots with white soles. Match anchor identity exactly. Reference 1 is STYLE ONLY; reference 2 IDENTITY ONLY; reference 3 ANATOMICAL SCALE ONLY.\nHighest priority: TRANSPARENT background or FLAT PURE MAGENTA #FF00FF. No colored gradient, no backdrop lighting, no ground. Never copy the reference backgrounds. Same anatomical body scale as idle at equivalent cell height, with natural changes due to falling pose. Hands and hair lifted, clear aerial suspension. No other fighter, props, shield bubble, stun stars, VFX.\nMaximum supported native resolution, 3:2 landscape, preferably 3456x2304, never below 1536 long edge.\nmasterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes. Background depth wording means shading richness only; no background is permitted.\nSprite sheet for a 2D side-view fighting game. Strict side view, character facing RIGHT in every frame. Grid of 3 columns × 2 rows, 6 equal cells, read left-to-right then top-to-bottom as frames 1 to 6 of ONE continuous animation. The SAME character in every cell: identical proportions, costume, colors and scale; only the pose changes, with smooth in-between motion from one frame to the next. Feet (or lowest point when grounded) on the same baseline at 88% of the cell height; the character's body centered horizontally in each cell; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the character's accent color. Fully transparent background (if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow). No grid lines, no frame numbers, no text, no ground, no drop shadow, no effects outside the character unless the prompt asks for them.\nMANDATORY CORRECTION: render on pure uniform solid magenta #FF00FF with no brown backdrop or lighting halo. Keep every silhouette within its exact 512x512 normalized cell and 12px margin, no feet crossing borders, no image-edge clipping. Preserve idle anatomical size.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png",
+    "art/lote02/chr/brasa/chr_brasa_anchor.png",
+    "art/lote02/chr/brasa/chr_brasa_idle.png"
+  ],
+  "grid": {
+    "columns": 3,
+    "rows": 2,
+    "frames": 6
+  },
+  "loop": true,
+  "output_files": [
+    "art/lote02/chr/brasa/chr_brasa_fall.png",
+    "art/lote02/chr/brasa/chr_brasa_fall.json"
+  ],
+  "notes": [
+    "Model identifier not exposed. Maximum native resolution requested; returned 1536x1024."
+  ],
+  "self_review": {
+    "reviewed": true,
+    "result": "failed_after_regeneration",
+    "regenerations": 1,
+    "first_attempt": {
+      "prompt_text": "Create chr_brasa_fall. Use case: stylized-concept. Production fighting game animation, ONE sheet, exactly SIX frames in THREE columns TWO rows. Falling loop in the air: arms up for balance, cloth and hair blowing upward, slight rotation back and forth; frame six smoothly returns to frame one. Only Brasa, athletic brown-skinned woman, dark brown high ponytail, orange headband with loose tails, graphite crop top with orange details, large orange/graphite mechanical gauntlets, graphite/orange cargo trousers, orange boots with white soles. Match anchor identity exactly. Reference 1 is STYLE ONLY; reference 2 IDENTITY ONLY; reference 3 ANATOMICAL SCALE ONLY.\nHighest priority: TRANSPARENT background or FLAT PURE MAGENTA #FF00FF. No colored gradient, no backdrop lighting, no ground. Never copy the reference backgrounds. Same anatomical body scale as idle at equivalent cell height, with natural changes due to falling pose. Hands and hair lifted, clear aerial suspension. No other fighter, props, shield bubble, stun stars, VFX.\nMaximum supported native resolution, 3:2 landscape, preferably 3456x2304, never below 1536 long edge.\nmasterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes. Background depth wording means shading richness only; no background is permitted.\nSprite sheet for a 2D side-view fighting game. Strict side view, character facing RIGHT in every frame. Grid of 3 columns × 2 rows, 6 equal cells, read left-to-right then top-to-bottom as frames 1 to 6 of ONE continuous animation. The SAME character in every cell: identical proportions, costume, colors and scale; only the pose changes, with smooth in-between motion from one frame to the next. Feet (or lowest point when grounded) on the same baseline at 88% of the cell height; the character's body centered horizontally in each cell; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the character's accent color. Fully transparent background (if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow). No grid lines, no frame numbers, no text, no ground, no drop shadow, no effects outside the character unless the prompt asks for them.",
+      "issues": [
+        "Wrong gradient background",
+        "Feet cross cell borders",
+        "Last pose clipped at image edge"
+      ]
+    },
+    "issues": [
+      "Wrong gradient background persists",
+      "Anatomical scale varies between poses"
+    ],
+    "decision": "Retained candidate; one regeneration exhausted."
+  }
+}

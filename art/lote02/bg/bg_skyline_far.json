@@ -1,0 +1,42 @@
+{
+  "asset_id": "bg_skyline_far",
+  "revision": 2,
+  "kind": "background_layer",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "8.1–8.3",
+  "prompt_text": "Use case: stylized-concept. Asset bg_skyline_far revision 2, standalone distant parallax layer for a 2D side-view fighting game. Use supplied art/concept/lote01/ui_tela_gameplay_hud.png ONLY as the cel-shaded anime style and sunset-light reference. Highest native resolution supported, ideally 3840x2160, 16:9, never below 1536 on the longer edge. Original Nova Aurora city fusing Pacific coastal hills and modern Tokyo: hazy hills covered with stacked Victorian houses with curved Japanese tile roofs, harbor with an original red lattice-tower suspension bridge (NOT a Japanese gate), distant pagoda-crowned skyscrapers and an original antenna tower. Orthographic frontal/side view, layered atmospheric perspective in muted cool violet with warm light from left, low contrast and saturation for background gameplay readability. All scenery occupies bottom 55 percent of canvas and ends in a perfectly flat continuous bottom edge. Transparent sky and transparent space above silhouette; absolutely no painted sky, sun or cloud backdrop. Fully transparent background; if alpha impossible use flat pure magenta #FF00FF without gradients or shadows. No characters, UI, readable text, recognizable film landmarks or logos. Crisp defined architectural silhouettes and precise structural beams despite low contrast; depth through color, never blur. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes SELF-REVIEW CORRECTION: Skyline highest antenna must stay below the horizontal line 45 percent down from canvas top, all structures smaller and more distant. Entire continuous harbor base must reach the very bottom canvas edge without floating margins. Absolutely clean alpha silhouette edges with no red or magenta fringe or patches. If clean transparency cannot be produced, use the permitted perfectly uniform pure magenta background and keep all foreground edges crisp. One regeneration correcting scale and background edge contamination.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 1,
+    "rows": 1,
+    "frames": 1
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/bg/bg_skyline_far.png",
+    "art/lote02/bg/bg_skyline_far.json"
+  ],
+  "notes": [
+    "Maior resolução solicitada (ideal 3840×2160); saída 1672×941.",
+    "model_id exato não exposto."
+  ],
+  "self_review": {
+    "opened": true,
+    "compared_with_prompt_and_references": true,
+    "regenerations": 1,
+    "initial_findings": [
+      "Escala excessiva e resíduos de cor no recorte."
+    ],
+    "decision": "needs_attention",
+    "final_findings": [
+      "Escala e alinhamento inferior corrigidos.",
+      "Persistem franjas vermelhas/magenta em trechos da silhueta; não aprovada para uso final. Limite de uma refação respeitado."
+    ],
+    "initial_prompt_text": "Use case: stylized-concept. Asset bg_skyline_far revision 2, standalone distant parallax layer for a 2D side-view fighting game. Use supplied art/concept/lote01/ui_tela_gameplay_hud.png ONLY as the cel-shaded anime style and sunset-light reference. Highest native resolution supported, ideally 3840x2160, 16:9, never below 1536 on the longer edge. Original Nova Aurora city fusing Pacific coastal hills and modern Tokyo: hazy hills covered with stacked Victorian houses with curved Japanese tile roofs, harbor with an original red lattice-tower suspension bridge (NOT a Japanese gate), distant pagoda-crowned skyscrapers and an original antenna tower. Orthographic frontal/side view, layered atmospheric perspective in muted cool violet with warm light from left, low contrast and saturation for background gameplay readability. All scenery occupies bottom 55 percent of canvas and ends in a perfectly flat continuous bottom edge. Transparent sky and transparent space above silhouette; absolutely no painted sky, sun or cloud backdrop. Fully transparent background; if alpha impossible use flat pure magenta #FF00FF without gradients or shadows. No characters, UI, readable text, recognizable film landmarks or logos. Crisp defined architectural silhouettes and precise structural beams despite low contrast; depth through color, never blur. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes"
+  }
+}

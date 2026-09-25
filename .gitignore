@@ -1,0 +1,8 @@
+game/.godot/
+captures/
+*.tmp
+
+# Saídas regeneráveis e temporárias
+*.log
+game/tests/zz_*
+__pycache__/

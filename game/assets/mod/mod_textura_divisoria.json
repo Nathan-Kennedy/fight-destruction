@@ -1,0 +1,20 @@
+{
+  "asset_id": "mod_textura_divisoria",
+  "size": [
+    256,
+    256
+  ],
+  "mundo_px": 64,
+  "celulas": 8,
+  "seam_antes": [
+    0.33,
+    0.71
+  ],
+  "seam_depois": [
+    0.33,
+    0.71
+  ],
+  "blend_borda": false,
+  "fonte": "art/lote02/mod/mod_textura_divisoria.png",
+  "status": "candidate"
+}

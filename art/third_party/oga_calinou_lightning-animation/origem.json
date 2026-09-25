@@ -1,0 +1,26 @@
+{
+  "asset_id": "oga_calinou_lightning_animation",
+  "revision": 1,
+  "kind": "vfx",
+  "status": "candidate",
+  "source_url": "https://opengameart.org/content/lightning-animation",
+  "provider": "third_party",
+  "author": "Calinou (Hugo Locurcio)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): Calinou (Hugo Locurcio)",
+  "files": [
+    "lightning/0.png",
+    "lightning/1.png",
+    "lightning/10.png",
+    "lightning/2.png",
+    "lightning/3.png",
+    "lightning/4.png",
+    "lightning/5.png",
+    "lightning/6.png",
+    "lightning/7.png",
+    "lightning/8.png",
+    "lightning/9.png"
+  ],
+  "notes": "Animação de raio em 11 PNGs (lightning/0..10.png)."
+}

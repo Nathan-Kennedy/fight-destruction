@@ -1,0 +1,29 @@
+{
+  "asset_id": "chr_bloco_jab",
+  "revision": 1,
+  "kind": "character_animation",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "2.1",
+  "prompt_text": "Use case: stylized-concept. Production animation sprite sheet chr_bloco_jab. Output PNG 1536x1024, 512x512 pixel cells. Input image 1: mandatory gameplay STYLE reference; match cel shading, dark outline and sunset light from the left, not scenery or UI. Input image 2: BLOCO IDENTITY anchor only, ignore its opaque brown backdrop. BLOCO is a heavy demolition exoskeleton in amber and olive green, helmet with a glowing amber visor, enormous arms with hydraulic jackhammer mechanisms, black-yellow hazard stripes on the forearms, tank and pipes on the back, broad feet. Preserve exactly the armor construction, helmet, proportions and palette in image 2. No hair or scarf: translate generic hair/cloth motion to small hose and armor secondary motion; express facial emotion through visor and helmet pose, never expose a human face.\nAnimation: quick light punch: guard, wind-up, fast extension with small smear, full extension contact, recoil, back to guard. One non-looping action.\nCombination rules: no opponent, held object, shield bubble or stun stars. For carry_* and throw_obj keep both hand attachment positions fixed above the head across frames for compositing. For grabbed keep the collar/torso grip point fixed across cells with body suspended. Only explicitly requested attack effects are permitted: Bloco uses dust, concrete chips and amber glow, no fire or cyan electricity. Fit every pose and effect inside its own cell. Render background as actual transparent alpha; if unavailable use completely uniform #FF00FF, never brown, gradients, checkerboard or scenery. Exactly 6 poses, no extra views or details. For strong, contact is frame 5; combine anticipation phases as needed to fit eight frames. For ko only, honor the explicitly requested shrinking flight pose. Keep lateral right-facing staging even when the action involves a tumble.\nSprite sheet for a 2D side-view fighting game. Strict side view, character facing RIGHT in every\nframe. Grid of 3 columns × 2 rows, 6 equal cells, read left-to-right then top-to-bottom as frames\n1 to 6 of ONE continuous animation. The SAME character in every cell: identical proportions,\ncostume, colors and scale; only the pose changes, with smooth in-between motion from one frame\nto the next. Feet (or lowest point when grounded) on the same baseline at 88% of the cell height;\nthe character's body centered horizontally in each cell; nothing crosses cell borders. Clean\ncel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone\nflat shading, crisp rim light in the character's accent color. Fully transparent background\n(if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow). No\ngrid lines, no frame numbers, no text, no ground, no drop shadow, no effects outside the character\nunless the prompt asks for them.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png",
+    "art/lote02/chr/bloco/chr_bloco_anchor.png"
+  ],
+  "grid": {
+    "columns": 3,
+    "rows": 2,
+    "frames": 6
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/chr/bloco/chr_bloco_jab.png"
+  ],
+  "notes": [
+    "Ferramenta image_gen__imagegen; identificador exato do modelo não informado pelo retorno.",
+    "Gameplay e âncora enviados via referenced_image_paths.",
+    "Inspeção técnica: {\"size\": [1536, 1024], \"mode\": \"RGBA\", \"alpha_extrema\": [0, 254], \"alpha_zero\": 898100}"
+  ]
+}

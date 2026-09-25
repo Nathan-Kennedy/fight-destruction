@@ -1,0 +1,22 @@
+{
+  "asset_id": "oga_para_particlefx_2",
+  "revision": 1,
+  "kind": "vfx",
+  "status": "candidate",
+  "source_url": "https://opengameart.org/content/animated-particle-effects-2",
+  "provider": "third_party",
+  "author": "para (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): para (OpenGameArt)",
+  "files": [
+    "fire_01.png",
+    "fire_01b.png",
+    "fire_01c.png",
+    "fire_02.png",
+    "lighter_flame_01.png",
+    "teleporter_01.png",
+    "teleporter_hit.png"
+  ],
+  "notes": "Subconjunto de 'para_CC0_particlefx-2.zip': fogo (fire_01/01b/01c/02), chama de isqueiro, teleporter e teleporter_hit (folhas 1024x1024). Excluídos: blood_hit_* e air_bubbles_* (sem uso)."
+}

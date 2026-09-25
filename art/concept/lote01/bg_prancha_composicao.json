@@ -1,0 +1,19 @@
+{
+  "asset_id": "bg_prancha_composicao",
+  "revision": 1,
+  "kind": "concept",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": "gpt-image",
+  "prompt_file": "Docs/arte/prompts_arte_lote01.md",
+  "prompt_section": "5.1",
+  "output_files": [
+    "art/concept/lote01/bg_prancha_composicao.png"
+  ],
+  "notes": [
+    "Gerado pela ferramenta nativa image_gen.imagegen; saída bruta copiada sem edição. model_id 'gpt-image' é o identificador nos metadados C2PA da saída; a ferramenta não expõe versão específica.",
+    "Negativo opcional da seção 4 não enviado: a ferramenta não oferece campo negative_prompt.",
+    "Saída 1672x941: proporção aproximada de 16:9, não exata. Preservada sem recorte.",
+    "Enquadramento mostra corte parcial do edifício; três andares não ficam integralmente demonstrados. Acabamento possui texturas e gradações além de duas cores chapadas."
+  ]
+}

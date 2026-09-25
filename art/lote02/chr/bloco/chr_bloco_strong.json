@@ -1,0 +1,49 @@
+﻿{
+  "asset_id": "chr_bloco_strong",
+  "revision": 2,
+  "kind": "sprite_sheet",
+  "status": "candidate",
+  "provider": "OpenAI image_gen",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "§0, §1, §2.1 strong, §8.3",
+  "prompt_text": "Use case: stylized-concept. Asset: chr_bloco_strong, production animation sprite sheet.\nInput image 1 defines illustration style only; image 2 locks identity; image 3 locks body scale and anatomical proportions, NOT its background. Bloco is a massive amber and olive-green demolition exoskeleton, helmet with glowing amber visor, huge hydraulic jackhammer arms, black/yellow hazard stripes on forearms, tank and pipes on back, broad feet. Exact anchor armor design.\nHeavy side strike: big anticipation twist, step in, smear frame, full-extension impact pose with a bright white-core star flash at the fist (frame 5), follow-through, recovery twice, back to guard. Exactly eight poses: 1 anticipation twist; 2 step in; 3 accelerating; 4 small clean smear; 5 full extension contact and compact white-core amber star flash; 6 follow-through; 7 recovery; 8 guard. Flash completely inside cell. No other fighter or objects.\nMaintain SAME body height/scale as idle reference, about 82% of cell height in upright guard; do not shrink fighter to accommodate effects. Fixed grounded sole baseline 88% cell height (translate baseline consistently from reference). Keep all armor inside the cell. Compact dust and concrete chips at the striking fist.\nMaximum native resolution supported, landscape 3:2, request 3456x2304 if supported, never below 1536 on longer edge. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes. The background-depth phrase applies to shading richness ONLY: background must be transparent, no scenery, no gradient or glow backdrop.\nSprite sheet for a 2D side-view fighting game. Strict side view, character facing RIGHT in every frame. Grid of 4 columns × 2 rows, 8 equal cells, read left-to-right then top-to-bottom as frames 1 to 8 of ONE continuous animation. The SAME character in every cell: identical proportions, costume, colors and scale; only the pose changes, with smooth in-between motion from one frame to the next. Feet (or lowest point when grounded) on the same baseline at 88% of the cell height; the character's body centered horizontally in each cell; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the character's accent color. Fully transparent background, or absolutely uniform flat pure magenta #FF00FF. No gradient, no colored backdrop, no shadow. Ignore ALL backgrounds in the references. No grid lines, no frame numbers, no text, no ground, no drop shadow, no effects outside the character unless the prompt asks for them.\nCORRECT THE TECHNICAL FAILURES: replace backdrop with pure uniform flat #FF00FF magenta, no glow, no gradient. Match idle body height exactly; preserve anatomical size, enlarge from previous strong. Fix sole baseline at 88% each cell. Cell 5 fist ends before x=330 in 1536-wide normalized sheet; small flash and ALL chips end before x=374. Cell 6 ends before x=758. No effects bridging cells. Highest priority is flat magenta background and exact sheet geometry.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png",
+    "art/lote02/chr/bloco/chr_bloco_anchor.png",
+    "art/lote02/chr/bloco/chr_bloco_idle.png"
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "frames": 8
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/chr/bloco/chr_bloco_strong.png"
+  ],
+  "notes": [
+    "Model identifier not exposed by tool. Requested maximum native resolution; output 1536x1024."
+  ],
+  "self_review": {
+    "reviewed": true,
+    "regenerations": 1,
+    "result": "failed_after_regeneration",
+    "first_attempt": {
+      "prompt_text": "Use case: stylized-concept. Asset: chr_bloco_strong, production animation sprite sheet.\nInput image 1 defines illustration style only; image 2 locks identity; image 3 locks body scale and anatomical proportions, NOT its background. Bloco is a massive amber and olive-green demolition exoskeleton, helmet with glowing amber visor, huge hydraulic jackhammer arms, black/yellow hazard stripes on forearms, tank and pipes on back, broad feet. Exact anchor armor design.\nHeavy side strike: big anticipation twist, step in, smear frame, full-extension impact pose with a bright white-core star flash at the fist (frame 5), follow-through, recovery twice, back to guard. Exactly eight poses: 1 anticipation twist; 2 step in; 3 accelerating; 4 small clean smear; 5 full extension contact and compact white-core amber star flash; 6 follow-through; 7 recovery; 8 guard. Flash completely inside cell. No other fighter or objects.\nMaintain SAME body height/scale as idle reference, about 82% of cell height in upright guard; do not shrink fighter to accommodate effects. Fixed grounded sole baseline 88% cell height (translate baseline consistently from reference). Keep all armor inside the cell. Compact dust and concrete chips at the striking fist.\nMaximum native resolution supported, landscape 3:2, request 3456x2304 if supported, never below 1536 on longer edge. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes. The background-depth phrase applies to shading richness ONLY: background must be transparent, no scenery, no gradient or glow backdrop.\nSprite sheet for a 2D side-view fighting game. Strict side view, character facing RIGHT in every frame. Grid of 4 columns × 2 rows, 8 equal cells, read left-to-right then top-to-bottom as frames 1 to 8 of ONE continuous animation. The SAME character in every cell: identical proportions, costume, colors and scale; only the pose changes, with smooth in-between motion from one frame to the next. Feet (or lowest point when grounded) on the same baseline at 88% of the cell height; the character's body centered horizontally in each cell; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the character's accent color. Fully transparent background, or absolutely uniform flat pure magenta #FF00FF. No gradient, no colored backdrop, no shadow. Ignore ALL backgrounds in the references. No grid lines, no frame numbers, no text, no ground, no drop shadow, no effects outside the character unless the prompt asks for them.",
+      "issues": [
+        "Wrong gradient background",
+        "Flash and debris cross cell borders",
+        "Body smaller than idle",
+        "Baseline below 88%"
+      ]
+    },
+    "issues": [
+      "Gradient background persists",
+      "Flash crosses cell boundary",
+      "Body remains smaller than idle",
+      "Row baselines differ"
+    ],
+    "decision": "Retained candidate; one regeneration exhausted."
+  }
+}

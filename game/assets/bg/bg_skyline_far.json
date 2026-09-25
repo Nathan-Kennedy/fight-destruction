@@ -1,0 +1,12 @@
+{
+  "asset_id": "bg_skyline_far",
+  "size": [
+    1280,
+    720
+  ],
+  "opaco": false,
+  "fundo": "alpha original (59% transparente)",
+  "ilhas_removidas": 2,
+  "fonte": "art/lote02/bg/bg_skyline_far.png",
+  "status": "candidate"
+}

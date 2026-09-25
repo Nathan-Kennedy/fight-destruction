@@ -1,0 +1,23 @@
+{
+  "asset_id": "solobyte_polygon2d_fracture",
+  "revision": 1,
+  "kind": "code",
+  "status": "candidate",
+  "source_url": "https://github.com/SoloByte/godot-polygon2d-fracture",
+  "provider": "third_party",
+  "author": "David Grueneis (SoloByte)",
+  "license": "MIT",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Obrigatória (MIT): 'Copyright (c) 2021 David Grueneis' + texto MIT.",
+  "files": [
+    "LICENSE_original",
+    "README.md",
+    "demo_ref/FractureShard.gd",
+    "demo_ref/FractureShard.tscn",
+    "demo_ref/PointFracture.gd",
+    "polygon2d-fracture/PolygonFracture.gd",
+    "polygon2d-fracture/PolygonLib.gd",
+    "polygon2d-fracture/PolygonRestorer.gd"
+  ],
+  "notes": "PolygonFracture.gd (fratura Delaunay/corte/ponto de Polygon2D), PolygonLib.gd (área, triangulação, pontos aleatórios, círculo), PolygonRestorer.gd. demo_ref/ = FractureShard e PointFracture do demo, só como referência. Scripts usam class_name: remover e carregar por preload (regra do AGENTS.md). RNG aceita seed fixa (PolygonFracture.new(seed)). Uso: fragmentos visuais de vidro/concreto na apresentação; nunca autoridade na sim."
+}

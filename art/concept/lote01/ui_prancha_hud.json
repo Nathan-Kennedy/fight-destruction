@@ -1,0 +1,18 @@
+{
+  "asset_id": "ui_prancha_hud",
+  "revision": 1,
+  "kind": "concept",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": "gpt-image",
+  "prompt_file": "Docs/arte/prompts_arte_lote01.md",
+  "prompt_section": "5.11",
+  "output_files": [
+    "art/concept/lote01/ui_prancha_hud.png"
+  ],
+  "notes": [
+    "Gerado pela ferramenta nativa image_gen.imagegen; saída bruta copiada sem edição. model_id 'gpt-image' é o identificador nos metadados C2PA da saída; a ferramenta não expõe versão específica.",
+    "Prompt enviado exatamente como escrito. O item 5.11 não contém [regras comuns]; nenhum texto adicional foi acrescentado.",
+    "Saída 1536x1024. Inspeção visual: quatro estados de dano, estoques, três anéis de cooldown, barra de escudo, marcadores, banners e botão de pausa presentes. Fundo possui halos coloridos e gradações em vez de cor neutra uniforme."
+  ]
+}

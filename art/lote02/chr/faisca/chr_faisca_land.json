@@ -1,0 +1,47 @@
+{
+  "asset_id": "chr_faisca_land",
+  "revision": 2,
+  "kind": "sprite_sheet",
+  "status": "candidate",
+  "provider": "OpenAI",
+  "model_id": "not_exposed_by_builtin_image_gen",
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "2.1 land; 0; 1; combination rules; 8.3",
+  "prompt_text": "Use case: stylized-concept. Production sprite animation asset chr_faisca_land.\nInput images: 1 gameplay image is reference for illustration style and left golden-hour key light only, do not draw its scene or UI; 2 character anchor locks identity and clothing; 3 idle sprite sheet locks anatomical scale, limb lengths and outline weight, not its opaque background or baseline.\nSubject: Faisca, slim young man, white hair with cyan streaks swept backwards, long cyan and white scarf, short white/cyan high-collar jacket, black fingerless gloves, slim black pants with cyan trim, black/white sneakers with luminous cyan soles. Precisely preserve anchor identity.\nAnimation: landing impact: legs absorb, deep crouch squash, small dust puff at the feet, rise back to stance. Six frames: first contact with flexed legs, lowering, deepest compression with a small crisp dust puff, early rise, late rise, recovered fighting stance. No other fighter or object. Same anatomical size in every frame; crouching changes pose height, never bone lengths. Final stance matches idle reference body height of approximately 82 percent of cell height, with baseline corrected to 88 percent. Maintain scale relative to cell HEIGHT even though cells here are wider than idle cells.\nSprite sheet for a 2D side-view fighting game. Strict side view, character facing RIGHT in every frame. Grid of 3 columns × 2 rows, 6 equal cells, read left-to-right then top-to-bottom as frames 1 to 6 of ONE continuous animation. The SAME character in every cell: identical proportions, costume, colors and scale; only the pose changes, with smooth in-between motion from one frame to the next. Feet (or lowest point when grounded) on the same baseline at 88% of the cell height; the character's body centered horizontally in each cell; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the character's accent color. Fully transparent background with genuine alpha, not a painted checkerboard. No grid lines, no frame numbers, no text, no ground, no drop shadow, no effects outside the character unless the prompt asks for them.\nmasterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes.\nBackground-depth quality instruction applies only to rendering sophistication: this sprite sheet must remain fully transparent with no backdrop. Request maximum supported resolution in exact 3:2 sheet aspect, never below 1536 pixels on long side, preferably 3072x2048 or greater if supported. Save PNG to C:/Projetos Dev/Fight Destruction/art/lote02/chr/faisca/chr_faisca_land.png.\nSELF-REVIEW CORRECTION, ONE REGENERATION: Previous attempt failed because it copied the opaque smoky background and put feet at 96% rather than 88%. ABSOLUTELY NO SMOKY BACKGROUND. Output true transparent alpha. If tool cannot produce alpha, use perfectly flat pure #FF00FF only, as specification fallback, no shadows or gradients. Baseline must be y=450 in first row and y=962 in second row for a 1536x1024 sheet (88% of each 512px cell), leaving 62px completely empty beneath each row. Keep anatomical scale matching idle; do not enlarge figures to fill wider cells. Only six clear clean poses. No scenery. Prioritize this correction over reference backgrounds.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png",
+    "art/lote02/chr/faisca/chr_faisca_anchor.png",
+    "art/lote02/chr/faisca/chr_faisca_idle.png"
+  ],
+  "grid": {
+    "columns": 3,
+    "rows": 2,
+    "frames": 6
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/chr/faisca/chr_faisca_land.png"
+  ],
+  "notes": [
+    "Generated using built-in image_gen; exact backend model ID not exposed. Returned 1536x1024 despite maximum resolution request.",
+    "Not approved for production: remaining defects after allowed single regeneration."
+  ],
+  "self_review": {
+    "result": "failed",
+    "regenerations": 1,
+    "initial_prompt_text": "Use case: stylized-concept. Production sprite animation asset chr_faisca_land.\nInput images: 1 gameplay image is reference for illustration style and left golden-hour key light only, do not draw its scene or UI; 2 character anchor locks identity and clothing; 3 idle sprite sheet locks anatomical scale, limb lengths and outline weight, not its opaque background or baseline.\nSubject: Faisca, slim young man, white hair with cyan streaks swept backwards, long cyan and white scarf, short white/cyan high-collar jacket, black fingerless gloves, slim black pants with cyan trim, black/white sneakers with luminous cyan soles. Precisely preserve anchor identity.\nAnimation: landing impact: legs absorb, deep crouch squash, small dust puff at the feet, rise back to stance. Six frames: first contact with flexed legs, lowering, deepest compression with a small crisp dust puff, early rise, late rise, recovered fighting stance. No other fighter or object. Same anatomical size in every frame; crouching changes pose height, never bone lengths. Final stance matches idle reference body height of approximately 82 percent of cell height, with baseline corrected to 88 percent. Maintain scale relative to cell HEIGHT even though cells here are wider than idle cells.\nSprite sheet for a 2D side-view fighting game. Strict side view, character facing RIGHT in every frame. Grid of 3 columns × 2 rows, 6 equal cells, read left-to-right then top-to-bottom as frames 1 to 6 of ONE continuous animation. The SAME character in every cell: identical proportions, costume, colors and scale; only the pose changes, with smooth in-between motion from one frame to the next. Feet (or lowest point when grounded) on the same baseline at 88% of the cell height; the character's body centered horizontally in each cell; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the character's accent color. Fully transparent background with genuine alpha, not a painted checkerboard. No grid lines, no frame numbers, no text, no ground, no drop shadow, no effects outside the character unless the prompt asks for them.\nmasterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes.\nBackground-depth quality instruction applies only to rendering sophistication: this sprite sheet must remain fully transparent with no backdrop. Request maximum supported resolution in exact 3:2 sheet aspect, never below 1536 pixels on long side, preferably 3072x2048 or greater if supported. Save PNG to C:/Projetos Dev/Fight Destruction/art/lote02/chr/faisca/chr_faisca_land.png.",
+    "initial_findings": [
+      "Opaque smoky backdrop",
+      "Feet baseline about 96% instead of 88%"
+    ],
+    "final_findings": [
+      "Opaque smoky backdrop persists",
+      "Baseline remains approximately 94–90%, inconsistent with 88%",
+      "Anatomical scale varies slightly across poses"
+    ],
+    "identity": "Recognizable anchor identity retained",
+    "readable_text": false,
+    "blur_or_melted_shapes": "No obvious major melting; background blurry",
+    "review_method": "Visual inspection of both generated outputs against gameplay, anchor and idle references"
+  }
+}

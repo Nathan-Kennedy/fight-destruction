@@ -1,0 +1,38 @@
+{
+  "asset_id": "bg_elementos_ceu",
+  "revision": 2,
+  "kind": "sprite_kit",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "8.2–8.3;1",
+  "prompt_text": "Use case: stylized-concept. Asset bg_elementos_ceu revision 2. Create a production sprite kit PNG at the highest native resolution supported, ideally 3840x2560, never below 1536 on longer edge. Supplied art/concept/lote01/ui_tela_gameplay_hud.png is the mandatory style reference. Original Nova Aurora coastal/Tokyo fusion sky props: strict 4 columns by 2 rows, 8 equal cells, reading left to right top to bottom: three distinct wind-turbine airships of large, medium, small design, two original koi fish balloons, two geometric patterned hot-air balloons, one flock of birds. Each object isolated in its own cell, strict side view, pointing RIGHT where applicable, consistent rendering scale conventions, coherent golden-hour light from left. This is an eight-object kit, not an animation; each object centered horizontally, lowest point at 88 percent cell height, generous padding, nothing crossing cell boundaries. Clean cel-shaded anime illustration matching reference, thick dark #15101C outline, two-tone shading, crisp warm rim light. Fully transparent background (if impossible, flat pure magenta #FF00FF with no gradient or shadow). No grid lines, numbers, text, ground, drop shadow, city or sky backdrop. Well-formed turbine rotors, balloon ropes and gondolas; original designs. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes SELF-REVIEW CORRECTION: First output had an incorrect gradient background and unequal cell layout. Regenerate once: use actual transparent background, absolutely NO gradient, NO glow behind objects, NO environmental background. Strict EQUAL cell widths: object centers at 12.5%,37.5%,62.5%,87.5% of canvas width in BOTH rows. Each prop must fit within its own 25-percent-wide cell with 10-percent cell padding. Large airship means its DESIGN is large, not allowed to span multiple cells. Keep all eight required objects in their listed order. Balloon patterns strictly geometric.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "frames": 8
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/bg/bg_elementos_ceu.png",
+    "art/lote02/bg/bg_elementos_ceu.json"
+  ],
+  "notes": [
+    "Maior resolução solicitada; saída 1536×1024.",
+    "model_id exato não exposto."
+  ],
+  "self_review": {
+    "opened": true,
+    "compared_with_prompt_and_references": true,
+    "regenerations": 1,
+    "decision": "needs_attention",
+    "initial_prompt_text": "Use case: stylized-concept. Asset bg_elementos_ceu revision 2. Create a production sprite kit PNG at the highest native resolution supported, ideally 3840x2560, never below 1536 on longer edge. Supplied art/concept/lote01/ui_tela_gameplay_hud.png is the mandatory style reference. Original Nova Aurora coastal/Tokyo fusion sky props: strict 4 columns by 2 rows, 8 equal cells, reading left to right top to bottom: three distinct wind-turbine airships of large, medium, small design, two original koi fish balloons, two geometric patterned hot-air balloons, one flock of birds. Each object isolated in its own cell, strict side view, pointing RIGHT where applicable, consistent rendering scale conventions, coherent golden-hour light from left. This is an eight-object kit, not an animation; each object centered horizontally, lowest point at 88 percent cell height, generous padding, nothing crossing cell boundaries. Clean cel-shaded anime illustration matching reference, thick dark #15101C outline, two-tone shading, crisp warm rim light. Fully transparent background (if impossible, flat pure magenta #FF00FF with no gradient or shadow). No grid lines, numbers, text, ground, drop shadow, city or sky backdrop. Well-formed turbine rotors, balloon ropes and gondolas; original designs. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes",
+    "final_findings": [
+      "Fundo degradê indevido persiste; primeiro dirigível ainda ultrapassa célula. Não aprovada para recorte automático."
+    ]
+  }
+}

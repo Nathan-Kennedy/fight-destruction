@@ -1,0 +1,17 @@
+{
+  "asset_id": "fx_acerto_forte",
+  "frame_w": 390,
+  "frame_h": 304,
+  "frames": 8,
+  "pivot": [
+    195,
+    152
+  ],
+  "fps": 24,
+  "loop": false,
+  "px_per_world_px": 4,
+  "escala": 1.0,
+  "fonte": "art/lote02/fx/fx_acerto_forte.png",
+  "fundo": "alpha original (89% transparente)",
+  "status": "candidate"
+}

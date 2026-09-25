@@ -1,0 +1,23 @@
+{
+  "asset_id": "oga_sinestesia_explosions_2",
+  "revision": 1,
+  "kind": "vfx",
+  "status": "candidate",
+  "source_url": "https://opengameart.org/content/2d-explosion-animations-2-frame-by-frame",
+  "provider": "third_party",
+  "author": "Sinestesia (OpenGameArt user 'sinestesia')",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): Sinestesia (OpenGameArt user 'sinestesia')",
+  "files": [
+    "Free Explosion Animations 2/1.png",
+    "Free Explosion Animations 2/2.png",
+    "Free Explosion Animations 2/3.png",
+    "Free Explosion Animations 2/4.png",
+    "Free Explosion Animations 2/Half Sized/1.png",
+    "Free Explosion Animations 2/Half Sized/2.png",
+    "Free Explosion Animations 2/Half Sized/3.png",
+    "Free Explosion Animations 2/Half Sized/4.png"
+  ],
+  "notes": "Free Explosion Animations 2: 4 folhas 4096x4096 (+ Half Sized) de explosões com raios/estilhaços e núcleo brilhante."
+}

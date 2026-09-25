@@ -1,0 +1,42 @@
+{
+  "asset_id": "bg_ceu",
+  "revision": 2,
+  "kind": "background_layer",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "8.1–8.3",
+  "prompt_text": "Use case: stylized-concept. Generate asset bg_ceu revision 2, a standalone opaque sky background PNG for a 2D side-view fighting game. Input image is ONLY a style reference: art/concept/lote01/ui_tela_gameplay_hud.png; match its professional cel-shaded anime illustration, crisp dark #15101C outlines and layered sunset lighting. Request the highest native resolution the tool supports, ideally 3840x2160, aspect ratio 16:9, never below 1536 on the longer edge. Golden-hour sky over the original Nova Aurora Pacific-coast-meets-Tokyo city: warm peach and gold near the horizon fading to violet, big soft sun low on the left, layered stylized clouds with crisp warm rim light, several floating wind-turbine airships tethered by thin cables, a couple of original koi-shaped balloons and patterned hot-air balloons at different distances. Wind-turbine airships have clean engineered gondolas and clearly defined turbine rotors, koi balloons have clearly formed fish silhouettes and tails. Keep aircraft small in the panoramic sky and use depth through scale, color and overlap, not blur. Opaque full-bleed sky only. No buildings, no terrain, no bridge, no people, no fighters, no HUD, no readable text, no logos, no watermark. Original designs, do not reproduce recognizable movie landmarks or characters. Warm light comes from the left, cool violet shadows. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes SELF-REVIEW CORRECTION: All airborne objects must be distant and modest in scale: the largest airship at most 12 percent of total canvas width, largest koi balloon at most 8 percent, largest hot-air balloon at most 6 percent. Leave broad open areas of sky for readability behind gameplay. Preserve crisp silhouettes and native detail. This is the single regeneration to correct excessive aircraft scale.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 1,
+    "rows": 1,
+    "frames": 1
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/bg/bg_ceu.png",
+    "art/lote02/bg/bg_ceu.json"
+  ],
+  "notes": [
+    "Maior resolução solicitada (ideal 3840×2160); ferramenta entregou 1672×941.",
+    "model_id exato não exposto pela ferramenta integrada."
+  ],
+  "self_review": {
+    "opened": true,
+    "compared_with_prompt_and_references": true,
+    "regenerations": 1,
+    "initial_findings": [
+      "Escala excessiva dos elementos aéreos."
+    ],
+    "decision": "candidate",
+    "final_findings": [
+      "Escala corrigida; fundo opaco, céu sem edifícios, sem texto legível; silhuetas definidas e estilo compatível.",
+      "Cabos representados entre dirigíveis e módulos suspensos; não mostram ancoragem fora do quadro."
+    ],
+    "initial_prompt_text": "Use case: stylized-concept. Generate asset bg_ceu revision 2, a standalone opaque sky background PNG for a 2D side-view fighting game. Input image is ONLY a style reference: art/concept/lote01/ui_tela_gameplay_hud.png; match its professional cel-shaded anime illustration, crisp dark #15101C outlines and layered sunset lighting. Request the highest native resolution the tool supports, ideally 3840x2160, aspect ratio 16:9, never below 1536 on the longer edge. Golden-hour sky over the original Nova Aurora Pacific-coast-meets-Tokyo city: warm peach and gold near the horizon fading to violet, big soft sun low on the left, layered stylized clouds with crisp warm rim light, several floating wind-turbine airships tethered by thin cables, a couple of original koi-shaped balloons and patterned hot-air balloons at different distances. Wind-turbine airships have clean engineered gondolas and clearly defined turbine rotors, koi balloons have clearly formed fish silhouettes and tails. Keep aircraft small in the panoramic sky and use depth through scale, color and overlap, not blur. Opaque full-bleed sky only. No buildings, no terrain, no bridge, no people, no fighters, no HUD, no readable text, no logos, no watermark. Original designs, do not reproduce recognizable movie landmarks or characters. Warm light comes from the left, cool violet shadows. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes"
+  }
+}

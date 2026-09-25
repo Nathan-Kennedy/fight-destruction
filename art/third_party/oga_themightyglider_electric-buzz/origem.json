@@ -1,0 +1,17 @@
+{
+  "asset_id": "oga_themightyglider_electric_buzz",
+  "revision": 1,
+  "kind": "audio",
+  "status": "integrated",
+  "source_url": "https://opengameart.org/content/electric-buzz",
+  "provider": "third_party",
+  "author": "themightyglider (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): themightyglider (OpenGameArt)",
+  "files": [
+    "buzz.ogg",
+    "pagina_fonte.html"
+  ],
+  "notes": "Zumbido elétrico curto (1,1 s)."
+}

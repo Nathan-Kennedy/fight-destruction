@@ -1,0 +1,16 @@
+{
+ "frames": 16,
+ "cols": 4,
+ "frame_w": 256,
+ "frame_h": 256,
+ "pivot": [
+  128,
+  128
+ ],
+ "fps": 32,
+ "loop": false,
+ "px_per_world_px": 4,
+ "source": "oga_sinestesia_hit-animations/hit_yellow_01_4096.png",
+ "license": "CC0",
+ "origem": "art/third_party/oga_sinestesia_hit-animations/origem.json"
+}

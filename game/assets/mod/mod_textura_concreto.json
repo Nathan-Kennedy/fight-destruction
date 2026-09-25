@@ -1,0 +1,20 @@
+{
+  "asset_id": "mod_textura_concreto",
+  "size": [
+    256,
+    256
+  ],
+  "mundo_px": 64,
+  "celulas": 8,
+  "seam_antes": [
+    0.61,
+    0.7
+  ],
+  "seam_depois": [
+    0.61,
+    0.7
+  ],
+  "blend_borda": false,
+  "fonte": "art/lote02/mod/mod_textura_concreto.png",
+  "status": "candidate"
+}

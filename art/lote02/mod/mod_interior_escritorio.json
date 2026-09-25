@@ -1,0 +1,37 @@
+{
+  "asset_id": "mod_interior_escritorio",
+  "revision": 2,
+  "kind": "interior_module",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "3; 8.1–8.3",
+  "prompt_text": "Use case: stylized-concept. Create mod_interior_escritorio revision 2, one opaque 2:1 production interior module for a 2D side-view fighting game. Input art/concept/lote01/ui_tela_gameplay_hud.png is ONLY the art style and sunset lighting reference; no HUD or fighters. Straight-on orthographic elevation of an office floor's back wall, no front wall and no people: desks, neatly constructed monitors with blank dark screens, bookshelf with unlettered spines, plants, window blinds, warm lamp light. Original Nova Aurora Pacific-coast Victorian woodwork fused with modern Tokyo shoji-like partitions and warm paper lanterns. Neat coherent desk legs, recognizable computer peripherals, precise cabinetry and straight architectural lines. Minimal visible floor depth, no exaggerated perspective. Warm golden-hour light from LEFT with cool violet shadows, clean cel-shaded anime illustration, dark #15101C outlines, two-tone shading, detailed but less saturated than fighters. Full bleed opaque room. Request highest native resolution supported, ideally 3840x1920, never below 1536 on longer edge. No readable text, letters, digits, logos, watermark, UI, characters or recognizable movie landmarks. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 1,
+    "rows": 1,
+    "frames": 1
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/mod/mod_interior_escritorio.png",
+    "art/lote02/mod/mod_interior_escritorio.json"
+  ],
+  "notes": [
+    "Ferramenta integrada; model_id não exposto. Resolução nativa entregue: 1774×887.",
+    "Uma estação de trabalho central; perspectiva leve no piso."
+  ],
+  "self_review": {
+    "opened": true,
+    "compared_with_prompt_and_references": true,
+    "regenerations": 0,
+    "decision": "candidate",
+    "final_findings": [
+      "Formas definidas, mobiliário coerente, sem texto legível, fundo opaco correto, proporção 2:1; estilo e luz compatíveis."
+    ]
+  }
+}

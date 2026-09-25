@@ -1,0 +1,20 @@
+{
+  "asset_id": "mod_textura_entulho",
+  "size": [
+    256,
+    256
+  ],
+  "mundo_px": 64,
+  "celulas": 8,
+  "seam_antes": [
+    0.74,
+    0.87
+  ],
+  "seam_depois": [
+    0.74,
+    0.87
+  ],
+  "blend_borda": false,
+  "fonte": "art/lote02/mod/mod_textura_entulho.png",
+  "status": "candidate"
+}

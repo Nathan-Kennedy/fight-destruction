@@ -1,0 +1,37 @@
+{
+  "asset_id": "mod_fachada_detalhes",
+  "revision": 2,
+  "kind": "sprite_kit",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "8.1–8.3;1",
+  "prompt_text": "Use case: stylized-concept. Asset mod_fachada_detalhes revision 2, production modular facade sprite kit. Style reference supplied: art/concept/lote01/ui_tela_gameplay_hud.png. Highest native resolution supported, ideally 3840x2560, never below 1536 on long edge. Eight independent original Nova Aurora coastal/Tokyo fusion pieces in STRICT 4 columns x 2 rows of EQUAL cells, left-right then top-bottom: curved Japanese tile roof segment; red paper lantern string; bay window of a Victorian row house; neon sign with illegible invented glyph; AC unit; drainpipe segment; balcony with plants; rooftop water tank. Orthographic front/side game view, consistent architectural scale, centered horizontally in each cell, lowest point at 88% cell height, each item contained fully within its cell with clear margins. Cel-shaded anime illustration matching reference, thick dark #15101C outline, two-tone shading, warm sunset light from LEFT and cool shadows. Fully transparent background; if impossible flat pure magenta #FF00FF with no gradients or shadows. No grid lines, text, frame numbers, ground, drop shadows, decorative backdrop or other architecture. These are eight kit parts, not successive animation frames. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes SELF-REVIEW single regeneration: correct wrong gradient backdrop and unequal cell layout. This must be a technical cutout sheet with TRUE TRANSPARENT ALPHA outside the objects. No scenery, no gradient, no aura, no light on background, no shadow behind objects. All four columns EXACTLY equal width, object centers at 12.5%,37.5%,62.5%,87.5% canvas width, and each object smaller than 21% canvas width. Same for both rows. Replace neon pseudo-writing with a single abstract zigzag symbol which cannot be read as language.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "frames": 8
+  },
+  "loop": false,
+  "output_files": [
+    "art/lote02/mod/mod_fachada_detalhes.png",
+    "art/lote02/mod/mod_fachada_detalhes.json"
+  ],
+  "notes": [
+    "Resolução máxima solicitada; saída 1536×1024. model_id não exposto."
+  ],
+  "self_review": {
+    "opened": true,
+    "compared_with_prompt_and_references": true,
+    "regenerations": 1,
+    "decision": "needs_attention",
+    "initial_prompt_text": "Use case: stylized-concept. Asset mod_fachada_detalhes revision 2, production modular facade sprite kit. Style reference supplied: art/concept/lote01/ui_tela_gameplay_hud.png. Highest native resolution supported, ideally 3840x2560, never below 1536 on long edge. Eight independent original Nova Aurora coastal/Tokyo fusion pieces in STRICT 4 columns x 2 rows of EQUAL cells, left-right then top-bottom: curved Japanese tile roof segment; red paper lantern string; bay window of a Victorian row house; neon sign with illegible invented glyph; AC unit; drainpipe segment; balcony with plants; rooftop water tank. Orthographic front/side game view, consistent architectural scale, centered horizontally in each cell, lowest point at 88% cell height, each item contained fully within its cell with clear margins. Cel-shaded anime illustration matching reference, thick dark #15101C outline, two-tone shading, warm sunset light from LEFT and cool shadows. Fully transparent background; if impossible flat pure magenta #FF00FF with no gradients or shadows. No grid lines, text, frame numbers, ground, drop shadows, decorative backdrop or other architecture. These are eight kit parts, not successive animation frames. masterpiece-level key art quality, highly detailed, crisp clean linework, rich layered lighting with warm golden-hour key light and cool shadows, detailed background depth, no blur, no smudged details, no AI artifacts, no melted shapes",
+    "final_findings": [
+      "Grade melhor alinhada e neon abstrato corrigido; fundo degradê incorreto persiste, bases não uniformes. Não aprovada para uso final."
+    ]
+  }
+}

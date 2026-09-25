@@ -1,0 +1,12 @@
+{
+  "asset_id": "bg_ceu",
+  "size": [
+    1280,
+    720
+  ],
+  "opaco": true,
+  "fundo": "opaco (mantido)",
+  "ilhas_removidas": 0,
+  "fonte": "art/lote02/bg/bg_ceu.png",
+  "status": "candidate"
+}

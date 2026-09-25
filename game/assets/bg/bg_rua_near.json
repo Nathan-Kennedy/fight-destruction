@@ -1,0 +1,12 @@
+{
+  "asset_id": "bg_rua_near",
+  "size": [
+    1280,
+    640
+  ],
+  "opaco": false,
+  "fundo": "alpha original (16% transparente)",
+  "ilhas_removidas": 0,
+  "fonte": "art/lote02/bg/bg_rua_near.png",
+  "status": "candidate"
+}

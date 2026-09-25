@@ -1,0 +1,32 @@
+{
+  "asset_id": "gdquest_vfx_2d_explosion",
+  "revision": 1,
+  "kind": "vfx",
+  "status": "candidate",
+  "source_url": "https://github.com/gdquest-demos/godot-4-VFX-assets",
+  "provider": "third_party",
+  "author": "GDQuest and contributors",
+  "license": "MIT (somente código; artes CC-BY-NC-SA do repo foram excluídas)",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Obrigatória (MIT): manter 'Copyright (c) 2023-present GDQuest' + texto MIT.",
+  "files": [
+    "LICENSE_upstream.txt",
+    "effects/2d_explosion/preview/2d_explosion_preview.gd",
+    "effects/2d_explosion/preview/2d_explosion_preview.tscn",
+    "effects/2d_explosion/source/explosion.gd",
+    "effects/2d_explosion/source/explosion.tscn",
+    "effects/2d_explosion/source/materials/explosion.gdshader",
+    "effects/2d_explosion/source/materials/explosion_mat.tres",
+    "effects/2d_explosion/source/materials/explosion_particles.gdshader",
+    "effects/2d_explosion/source/materials/explosion_particles.tres",
+    "effects/2d_explosion/source/materials/explosion_red.gdshader",
+    "effects/2d_explosion/source/materials/explosion_red_circle.gdshader",
+    "effects/2d_explosion/source/materials/explosion_trace.gdshader",
+    "effects/2d_explosion/source/materials/smoke.gdshader",
+    "effects/2d_trail/source/material/star.gdshader",
+    "effects/2d_trail/source/material/star_trail.gdshader",
+    "effects/2d_trail/source/trail_2d.gd",
+    "effects/2d_trail/source/trail_2d.tscn"
+  ],
+  "notes": "Explosão 2D 100% procedural (ColorRects com shaders de ruído + GPUParticles2D + AnimationPlayer) e trail 2D (Line2D que segue um nó). Caminhos res:// apontam para res://effects/...: ajustar ao integrar. explosion.gd usa randf() (só visual). Escala nativa grande (~300 px de raio): usar scale ~0.3-0.6. Testado carregando em Godot 4.7.2 sem erro (só aviso de UID)."
+}

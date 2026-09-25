@@ -1,0 +1,19 @@
+{
+  "asset_id": "chr_regua_elenco",
+  "revision": 1,
+  "kind": "concept",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": "gpt-image",
+  "prompt_file": "Docs/arte/prompts_arte_lote01.md",
+  "prompt_section": "5.2",
+  "output_files": [
+    "art/concept/lote01/chr_regua_elenco.png"
+  ],
+  "notes": [
+    "Gerado pela ferramenta nativa image_gen.imagegen; saída bruta copiada sem edição. model_id 'gpt-image' é o identificador nos metadados C2PA da saída; a ferramenta não expõe versão específica.",
+    "Negativo opcional da seção 4 não enviado: a ferramenta não oferece campo negative_prompt.",
+    "Fundo urbano detalhado em vez do fundo neutro plano solicitado. Proporções da régua são conceituais, não métricas.",
+    "Designs variam em relação às pranchas individuais; acabamento inclui texturas e gradações."
+  ]
+}

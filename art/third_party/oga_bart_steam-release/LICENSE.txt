@@ -1,0 +1,6 @@
+Pacote: oga_bart_steam-release
+Autor: Bart K. (OpenGameArt user 'Bart')
+Fonte: https://opengameart.org/content/steam-release-sounds
+Licença: CC0 1.0 Universal (Public Domain Dedication) - https://creativecommons.org/publicdomain/zero/1.0/
+Conferido em: 2026-09-24 (a página da fonte indica CC0; cópia salva em pagina_fonte.html)
+Atribuição: não obrigatória (CC0). Crédito recomendado: "Bart K. (OpenGameArt user 'Bart')".

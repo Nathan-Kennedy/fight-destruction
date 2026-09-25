@@ -1,0 +1,17 @@
+{
+  "asset_id": "oga_starninjas_crowd_shouting",
+  "revision": 1,
+  "kind": "audio",
+  "status": "integrated",
+  "source_url": "https://opengameart.org/content/crowd-shoutingspeaking-ambience",
+  "provider": "third_party",
+  "author": "starninjas (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): starninjas (OpenGameArt)",
+  "files": [
+    "crowd_shouting.ogg",
+    "pagina_fonte.html"
+  ],
+  "notes": "Multidão gritando (27 s). Recortado em reações de susto/tumulto do público."
+}

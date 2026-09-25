@@ -1,0 +1,153 @@
+{
+  "asset_id": "chr_bloco_jab",
+  "fighter": "bloco",
+  "anim": "jab",
+  "status": "candidate",
+  "frame_w": 374,
+  "frame_h": 292,
+  "frames": 6,
+  "pivot": [
+    187,
+    268
+  ],
+  "fps": 18,
+  "loop": false,
+  "px_per_world_px": 4,
+  "altura_mundo_px": 56,
+  "escala": 0.545,
+  "fonte": {
+    "arquivo": "art/lote02/chr/bloco/chr_bloco_jab.png",
+    "revision": 1,
+    "grade": [
+      3,
+      2
+    ],
+    "celula_src": [
+      512,
+      512
+    ],
+    "fundo": "alpha original (63% transparente)",
+    "linha_base_src": 471.5,
+    "referencia_escala": "idle"
+  },
+  "metricas": [
+    {
+      "frame": 1,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 363,
+      "altura_ratio": 0.883,
+      "area_px": 83957,
+      "area_ratio": 0.889,
+      "hist_dist_idle1": 0.187,
+      "hist_dist_anchor": 0.145,
+      "pivot_src": [
+        248.5,
+        490.0
+      ],
+      "pivot_dx_rel": -0.018,
+      "pe_dy_rel": 0.045,
+      "flags": []
+    },
+    {
+      "frame": 2,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 378,
+      "altura_ratio": 0.92,
+      "area_px": 93345,
+      "area_ratio": 0.988,
+      "hist_dist_idle1": 0.183,
+      "hist_dist_anchor": 0.13,
+      "pivot_src": [
+        236.2,
+        490.0
+      ],
+      "pivot_dx_rel": -0.048,
+      "pe_dy_rel": 0.045,
+      "flags": []
+    },
+    {
+      "frame": 3,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 350,
+      "altura_ratio": 0.852,
+      "area_px": 93819,
+      "area_ratio": 0.993,
+      "hist_dist_idle1": 0.195,
+      "hist_dist_anchor": 0.165,
+      "pivot_src": [
+        176.0,
+        490.0
+      ],
+      "pivot_dx_rel": -0.195,
+      "pe_dy_rel": 0.045,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 4,
+      "aereo": false,
+      "ilhas_removidas": 4,
+      "altura_src_px": 392,
+      "altura_ratio": 0.954,
+      "area_px": 113056,
+      "area_ratio": 1.197,
+      "hist_dist_idle1": 0.181,
+      "hist_dist_anchor": 0.153,
+      "pivot_src": [
+        230.4,
+        453.0
+      ],
+      "pivot_dx_rel": -0.062,
+      "pe_dy_rel": -0.045,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 5,
+      "aereo": false,
+      "ilhas_removidas": 6,
+      "altura_src_px": 359,
+      "altura_ratio": 0.873,
+      "area_px": 86014,
+      "area_ratio": 0.911,
+      "hist_dist_idle1": 0.154,
+      "hist_dist_anchor": 0.118,
+      "pivot_src": [
+        251.3,
+        453.0
+      ],
+      "pivot_dx_rel": -0.011,
+      "pe_dy_rel": -0.045,
+      "flags": []
+    },
+    {
+      "frame": 6,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 360,
+      "altura_ratio": 0.876,
+      "area_px": 85401,
+      "area_ratio": 0.904,
+      "hist_dist_idle1": 0.173,
+      "hist_dist_anchor": 0.142,
+      "pivot_src": [
+        260.0,
+        453.0
+      ],
+      "pivot_dx_rel": 0.01,
+      "pe_dy_rel": -0.045,
+      "flags": []
+    }
+  ],
+  "frames_marcados": [
+    3,
+    4
+  ],
+  "gerado_por": "tools/art/process_sheets.py",
+  "gerado_em": "2026-09-24T18:04:05"
+}

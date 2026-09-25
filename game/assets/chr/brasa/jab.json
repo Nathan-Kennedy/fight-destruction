@@ -1,0 +1,150 @@
+{
+  "asset_id": "chr_brasa_jab",
+  "fighter": "brasa",
+  "anim": "jab",
+  "status": "candidate",
+  "frame_w": 370,
+  "frame_h": 232,
+  "frames": 6,
+  "pivot": [
+    185,
+    222
+  ],
+  "fps": 18,
+  "loop": false,
+  "px_per_world_px": 4,
+  "altura_mundo_px": 50,
+  "escala": 0.4224,
+  "fonte": {
+    "arquivo": "art/lote02/chr/brasa/chr_brasa_jab.png",
+    "revision": 1,
+    "grade": [
+      3,
+      2
+    ],
+    "celula_src": [
+      512,
+      512
+    ],
+    "fundo": "alpha original (67% transparente)",
+    "linha_base_src": 491.0,
+    "referencia_escala": "idle"
+  },
+  "metricas": [
+    {
+      "frame": 1,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 479,
+      "altura_ratio": 1.012,
+      "area_px": 75535,
+      "area_ratio": 0.957,
+      "hist_dist_idle1": 0.093,
+      "hist_dist_anchor": 0.144,
+      "pivot_src": [
+        249.1,
+        504.0
+      ],
+      "pivot_dx_rel": -0.015,
+      "pe_dy_rel": 0.027,
+      "flags": []
+    },
+    {
+      "frame": 2,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 471,
+      "altura_ratio": 0.995,
+      "area_px": 84158,
+      "area_ratio": 1.067,
+      "hist_dist_idle1": 0.111,
+      "hist_dist_anchor": 0.15,
+      "pivot_src": [
+        234.2,
+        502.0
+      ],
+      "pivot_dx_rel": -0.046,
+      "pe_dy_rel": 0.023,
+      "flags": []
+    },
+    {
+      "frame": 3,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 476,
+      "altura_ratio": 1.005,
+      "area_px": 86736,
+      "area_ratio": 1.099,
+      "hist_dist_idle1": 0.133,
+      "hist_dist_anchor": 0.171,
+      "pivot_src": [
+        198.7,
+        502.0
+      ],
+      "pivot_dx_rel": -0.121,
+      "pe_dy_rel": 0.023,
+      "flags": []
+    },
+    {
+      "frame": 4,
+      "aereo": false,
+      "ilhas_removidas": 5,
+      "altura_src_px": 466,
+      "altura_ratio": 0.984,
+      "area_px": 94935,
+      "area_ratio": 1.203,
+      "hist_dist_idle1": 0.168,
+      "hist_dist_anchor": 0.205,
+      "pivot_src": [
+        248.3,
+        478.0
+      ],
+      "pivot_dx_rel": -0.016,
+      "pe_dy_rel": -0.027,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 5,
+      "aereo": false,
+      "ilhas_removidas": 7,
+      "altura_src_px": 472,
+      "altura_ratio": 0.997,
+      "area_px": 75523,
+      "area_ratio": 0.957,
+      "hist_dist_idle1": 0.104,
+      "hist_dist_anchor": 0.126,
+      "pivot_src": [
+        273.8,
+        480.0
+      ],
+      "pivot_dx_rel": 0.038,
+      "pe_dy_rel": -0.023,
+      "flags": []
+    },
+    {
+      "frame": 6,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 470,
+      "altura_ratio": 0.993,
+      "area_px": 75088,
+      "area_ratio": 0.952,
+      "hist_dist_idle1": 0.077,
+      "hist_dist_anchor": 0.128,
+      "pivot_src": [
+        255.0,
+        480.0
+      ],
+      "pivot_dx_rel": -0.002,
+      "pe_dy_rel": -0.023,
+      "flags": []
+    }
+  ],
+  "frames_marcados": [
+    4
+  ],
+  "gerado_por": "tools/art/process_sheets.py",
+  "gerado_em": "2026-09-24T18:04:10"
+}

@@ -1,0 +1,195 @@
+{
+  "asset_id": "chr_bloco_idle",
+  "fighter": "bloco",
+  "anim": "idle",
+  "status": "candidate",
+  "frame_w": 374,
+  "frame_h": 292,
+  "frames": 8,
+  "pivot": [
+    187,
+    268
+  ],
+  "fps": 10,
+  "loop": true,
+  "px_per_world_px": 4,
+  "altura_mundo_px": 56,
+  "escala": 0.545,
+  "fonte": {
+    "arquivo": "art/lote02/chr/bloco/chr_bloco_idle.png",
+    "revision": 1,
+    "grade": [
+      4,
+      2
+    ],
+    "celula_src": [
+      384,
+      512
+    ],
+    "fundo": "alpha original (51% transparente)",
+    "linha_base_src": 472.0,
+    "referencia_escala": "idle"
+  },
+  "metricas": [
+    {
+      "frame": 1,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 427,
+      "altura_ratio": 1.039,
+      "area_px": 98058,
+      "area_ratio": 1.038,
+      "hist_dist_idle1": 0.0,
+      "hist_dist_anchor": 0.151,
+      "pivot_src": [
+        200.0,
+        488.0
+      ],
+      "pivot_dx_rel": 0.019,
+      "pe_dy_rel": 0.039,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 2,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 421,
+      "altura_ratio": 1.024,
+      "area_px": 95168,
+      "area_ratio": 1.007,
+      "hist_dist_idle1": 0.024,
+      "hist_dist_anchor": 0.139,
+      "pivot_src": [
+        188.7,
+        490.0
+      ],
+      "pivot_dx_rel": -0.008,
+      "pe_dy_rel": 0.044,
+      "flags": []
+    },
+    {
+      "frame": 3,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 412,
+      "altura_ratio": 1.002,
+      "area_px": 95465,
+      "area_ratio": 1.011,
+      "hist_dist_idle1": 0.026,
+      "hist_dist_anchor": 0.141,
+      "pivot_src": [
+        174.6,
+        490.0
+      ],
+      "pivot_dx_rel": -0.042,
+      "pe_dy_rel": 0.044,
+      "flags": []
+    },
+    {
+      "frame": 4,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 404,
+      "altura_ratio": 0.983,
+      "area_px": 93155,
+      "area_ratio": 0.986,
+      "hist_dist_idle1": 0.025,
+      "hist_dist_anchor": 0.149,
+      "pivot_src": [
+        171.9,
+        491.0
+      ],
+      "pivot_dx_rel": -0.049,
+      "pe_dy_rel": 0.046,
+      "flags": []
+    },
+    {
+      "frame": 5,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 411,
+      "altura_ratio": 1.0,
+      "area_px": 96196,
+      "area_ratio": 1.018,
+      "hist_dist_idle1": 0.034,
+      "hist_dist_anchor": 0.134,
+      "pivot_src": [
+        199.1,
+        456.0
+      ],
+      "pivot_dx_rel": 0.017,
+      "pe_dy_rel": -0.039,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 6,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 408,
+      "altura_ratio": 0.993,
+      "area_px": 93768,
+      "area_ratio": 0.993,
+      "hist_dist_idle1": 0.039,
+      "hist_dist_anchor": 0.134,
+      "pivot_src": [
+        194.3,
+        456.0
+      ],
+      "pivot_dx_rel": 0.006,
+      "pe_dy_rel": -0.039,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 7,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 402,
+      "altura_ratio": 0.978,
+      "area_px": 92094,
+      "area_ratio": 0.975,
+      "hist_dist_idle1": 0.037,
+      "hist_dist_anchor": 0.13,
+      "pivot_src": [
+        192.1,
+        456.0
+      ],
+      "pivot_dx_rel": 0.0,
+      "pe_dy_rel": -0.039,
+      "flags": [
+        "CRUZA_CELULA"
+      ]
+    },
+    {
+      "frame": 8,
+      "aereo": false,
+      "ilhas_removidas": 0,
+      "altura_src_px": 411,
+      "altura_ratio": 1.0,
+      "area_px": 93544,
+      "area_ratio": 0.99,
+      "hist_dist_idle1": 0.03,
+      "hist_dist_anchor": 0.137,
+      "pivot_src": [
+        176.5,
+        455.0
+      ],
+      "pivot_dx_rel": -0.038,
+      "pe_dy_rel": -0.041,
+      "flags": []
+    }
+  ],
+  "frames_marcados": [
+    1,
+    5,
+    6,
+    7
+  ],
+  "gerado_por": "tools/art/process_sheets.py",
+  "gerado_em": "2026-09-24T18:04:04"
+}

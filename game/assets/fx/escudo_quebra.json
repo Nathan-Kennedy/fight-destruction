@@ -1,0 +1,17 @@
+{
+  "asset_id": "fx_escudo_quebra",
+  "frame_w": 386,
+  "frame_h": 372,
+  "frames": 8,
+  "pivot": [
+    193,
+    186
+  ],
+  "fps": 24,
+  "loop": false,
+  "px_per_world_px": 4,
+  "escala": 1.0,
+  "fonte": "art/lote02/fx/fx_escudo_quebra.png",
+  "fundo": "alpha original (88% transparente)",
+  "status": "candidate"
+}

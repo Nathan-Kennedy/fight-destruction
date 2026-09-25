@@ -1,0 +1,21 @@
+{
+  "asset_id": "oga_bart_steam_release",
+  "revision": 1,
+  "kind": "audio",
+  "status": "integrated",
+  "source_url": "https://opengameart.org/content/steam-release-sounds",
+  "provider": "third_party",
+  "author": "Bart K. (OpenGameArt user 'Bart')",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): Bart K. (OpenGameArt user 'Bart')",
+  "files": [
+    "pagina_fonte.html",
+    "steam_hisses_-_Marker_1.wav",
+    "steam_hisses_-_Marker_2.wav",
+    "steam_hisses_-_Marker_3.wav",
+    "steam_hisses_-_Marker_4.wav",
+    "steam_hisses_-_Marker_5.wav"
+  ],
+  "notes": "5 chiados de vapor (1,8 s). Vapor, gás vazando, pavio do botijão, extintor."
+}

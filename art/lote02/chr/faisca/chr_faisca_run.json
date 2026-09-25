@@ -1,0 +1,31 @@
+﻿{
+  "asset_id": "chr_faisca_run",
+  "revision": 1,
+  "kind": "sprite_sheet",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": "gpt-image (exact version undisclosed)",
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "2.1",
+  "prompt_text": "Use case: stylized-concept. Generate production sprite sheet chr_faisca_run, exactly 1536x1024 PNG. Input image 1 is the gameplay STYLE reference; input image 2 is the Faísca Faísca, young slim male lightweight fighter, white hair with cyan streaks spiked backward, long cyan and white scarf, short white and cyan high-collar jacket, black fingerless gloves, tight black trousers with cyan piping, black and white sneakers with luminous cyan soles. anchor. Match his face, hair, clothing, proportions and palette; DO NOT copy the anchor's dark background. IDENTITY\nAnimation: full run cycle: contact, down, passing, up for each leg; arms pumping; body leaning forward; hair and scarf trailing\nSeamless loop: last frame flows back to first.\nCombination constraints: draw only Faísca, no other fighters, carried objects, shield bubbles or stun stars. Warm dusk light from LEFT in every frame. Cyan electric lightning only for the explicitly requested attack effects. For carry_idle, carry_run and throw_obj keep the open-hand attachment positions fixed above the head across cells; convey throw through torso and legs while preserving that attachment point. For grabbed keep the collar/torso grip point fixed in cell coordinates. Keep all action and effects within cells. For strong: eight poses total, frame 5 contact, frames 6 and 7 recovery, frame 8 guard. No extra poses.\nSprite sheet for a 2D side-view fighting game. Strict side view, character facing RIGHT in every frame. Grid of 4 columns × 2 rows, 8 equal cells, read left-to-right then top-to-bottom as frames 1 to 8 of ONE continuous animation. The SAME character in every cell: identical proportions, costume, colors and scale; only the pose changes, with smooth in-between motion from one frame to the next. Feet (or lowest point when grounded) on the same baseline at 88% of the cell height; the character's body centered horizontally in each cell; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the character's accent color. Fully transparent background (if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow). No grid lines, no frame numbers, no text, no ground, no drop shadow, no effects outside the character unless the prompt asks for them.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png",
+    "art/lote02/chr/faisca/chr_faisca_anchor.png"
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "frames": 8
+  },
+  "loop": true,
+  "output_files": [
+    "art/lote02/chr/faisca/chr_faisca_run.png",
+    "art/lote02/chr/faisca/chr_faisca_run.json"
+  ],
+  "notes": [
+    "Fundo opaco com gradiente escuro, em vez de transparente ou magenta.",
+    "Alinhamento e baseline variam; necessita validação no pipeline.",
+    "Vista ligeiramente 3/4 em algumas poses.",
+    "Versão exata do modelo não exposta pela ferramenta."
+  ]
+}

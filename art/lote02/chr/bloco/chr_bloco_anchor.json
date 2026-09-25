@@ -1,0 +1,29 @@
+﻿{
+    "asset_id":  "chr_bloco_anchor",
+    "revision":  1,
+    "kind":  "character_anchor",
+    "status":  "candidate",
+    "provider":  "openai",
+    "model_id":  null,
+    "prompt_file":  "Docs/arte/prompts_arte_lote02.md",
+    "prompt_section":  "2.0",
+    "prompt_text":  "Use case: stylized-concept. Asset: chr_bloco_anchor, production character identity model sheet, PNG 1536x1024. Input image 1 is the mandatory STYLE reference art/concept/lote01/ui_tela_gameplay_hud.png; use the heavy armored fighter at lower left as character guidance, not the scenery or UI. Character model sheet of BLOCO, a heavy demolition exoskeleton in amber and olive green, helmet with a bright glowing amber visor, enormous arms with hydraulic jackhammer mechanisms, black-yellow hazard stripes on the forearms, tank and pipes on the back, broad feet. Three views on a fully transparent background: strict side view facing right (large, full body), front view, back view, plus a close-up of the helmet/visor and hands. Neutral standing pose. Clean cel-shaded anime illustration, thick dark outline #15101C, two-tone flat shading, crisp amber rim light. Consistent with the reference image. Sunset lighting from the left. Lock proportions, armor construction and colors across all views. No text, labels, grid lines, scenery, ground, cast shadow, other fighter or held object. True transparent alpha background preferred; if impossible use flat pure magenta #FF00FF without gradient or shadow.",
+    "reference_images":  [
+                             "art/concept/lote01/ui_tela_gameplay_hud.png"
+                         ],
+    "grid":  {
+                 "columns":  null,
+                 "rows":  null,
+                 "frames":  null
+             },
+    "loop":  false,
+    "output_files":  [
+                         "art/lote02/chr/bloco/chr_bloco_anchor.png"
+                     ],
+    "notes":  [
+                  "Ferramenta image_gen__imagegen; identificador exato do modelo não informado pelo retorno.",
+                  "Referência de estilo enviada via referenced_image_paths.",
+                  "PNG RGBA com transparência real (alfa 0–254); RGB marrom em pixels transparentes aparece na prévia da ferramenta. Personagem com alfa máximo 254, quase opaco.",
+                  "Layout de identidade livre: três vistas e detalhes de capacete e mãos; não é sequência de animação."
+              ]
+}

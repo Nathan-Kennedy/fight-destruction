@@ -1,0 +1,19 @@
+{
+  "asset_id": "ui_tela_gameplay_hud",
+  "revision": 1,
+  "kind": "concept",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": "gpt-image",
+  "prompt_file": "Docs/arte/prompts_arte_lote01.md",
+  "prompt_section": "5.10",
+  "output_files": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png"
+  ],
+  "notes": [
+    "Gerado pela ferramenta nativa image_gen.imagegen; saída bruta copiada sem edição. model_id 'gpt-image' é o identificador nos metadados C2PA da saída; a ferramenta não expõe versão específica.",
+    "Prompt enviado exatamente como escrito, substituindo [regras comuns] pelo bloco de texto da seção 4. Negativo opcional não enviado: a ferramenta não oferece campo negative_prompt.",
+    "Saída 1672x941 em paisagem: proporção aproximada de 16:9, não exata. Preservada sem recorte.",
+    "Inspeção visual: HUD e marcadores presentes; há inscrições extras na máquina de venda, texturas e gradações além de duas cores chapadas. O acabamento não demonstra uma grade consistente de pixel art."
+  ]
+}

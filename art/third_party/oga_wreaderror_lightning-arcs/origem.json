@@ -1,0 +1,23 @@
+{
+  "asset_id": "oga_wreaderror_lightning_arcs",
+  "revision": 1,
+  "kind": "vfx",
+  "status": "candidate",
+  "source_url": "https://opengameart.org/content/lightning",
+  "provider": "third_party",
+  "author": "wreaderror (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): wreaderror (OpenGameArt)",
+  "files": [
+    "lightning.png",
+    "lightning1_b.png",
+    "lightning2_b.png",
+    "lightning3.png",
+    "lightning3_b.png",
+    "lightning_1.png",
+    "lightning_2.png",
+    "lightning_b.png"
+  ],
+  "notes": "8 PNGs 2048x512 de arcos elétricos (4 violeta, 4 azul-ciano; *_b = variação). Usar em blend aditivo / alfa pelo cinza."
+}

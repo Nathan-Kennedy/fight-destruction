@@ -1,0 +1,30 @@
+{
+  "asset_id": "chr_brasa_idle",
+  "revision": 1,
+  "kind": "character_animation",
+  "status": "candidate",
+  "provider": "openai",
+  "model_id": null,
+  "prompt_file": "Docs/arte/prompts_arte_lote02.md",
+  "prompt_section": "2.1",
+  "prompt_text": "Use case: stylized-concept. Production animation sprite sheet chr_brasa_idle. Output exactly 1536x1024 PNG. Image 1: gameplay STYLE reference. Image 2: Brasa IDENTITY anchor only; do not copy its opaque background. BRASA: athletic adult woman, medium brown skin, dark-brown high ponytail, orange forehead headband with loose tails, graphite crop top with orange details, large orange and graphite mechanical gauntlets, orange and graphite cargo pants, orange boots with white soles. Exactly preserve the anchor's face, proportions, outfit, colors and gauntlet design. Animation: fighting-stance idle breathing loop: slight up-down bob of the torso, hair/scarf/cloth sway, fists guard; frame 8 flows back into frame 1. Brasa has no scarf; animate ponytail and headband tails instead. Warm sunset lighting from the left, orange rim light. Do not draw other fighters, held objects, shield bubbles, or stun stars. Actual transparent background preferred; otherwise ONLY uniform pure magenta #FF00FF, never brown or a gradient. Sprite sheet for a 2D side-view fighting game. Strict side view, character facing RIGHT in every frame. Grid of 4 columns × 2 rows, 8 equal cells, read left-to-right then top-to-bottom as frames 1 to 8 of ONE continuous animation. The SAME character in every cell: identical proportions, costume, colors and scale; only the pose changes, with smooth in-between motion from one frame to the next. Feet (or lowest point when grounded) on the same baseline at 88% of the cell height; the character's body centered horizontally in each cell; nothing crosses cell borders. Clean cel-shaded anime illustration matching the reference image: thick dark outline (#15101C), two-tone flat shading, crisp rim light in the character's accent color. Fully transparent background (if transparency is impossible, flat pure magenta #FF00FF with no gradient and no shadow). No grid lines, no frame numbers, no text, no ground, no drop shadow, no effects outside the character unless the prompt asks for them.",
+  "reference_images": [
+    "art/concept/lote01/ui_tela_gameplay_hud.png",
+    "art/lote02/chr/brasa/chr_brasa_anchor.png"
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "frames": 8
+  },
+  "loop": true,
+  "output_files": [
+    "art/lote02/chr/brasa/chr_brasa_idle.png"
+  ],
+  "notes": [
+    "Identificador exato do modelo não exposto pela ferramenta; model_id=null.",
+    "Referências enviadas por referenced_image_paths.",
+    "Prévia: tronco em leve 3/4 e base dos pés abaixo dos 88% solicitados; requer validação/alinhamento no pipeline.",
+    "Canal alfa: pixel de fundo amostrado transparente (alfa=0)."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "asset_id": "oga_sinestesia_explosions_1",
+  "revision": 1,
+  "kind": "vfx",
+  "status": "candidate",
+  "source_url": "https://opengameart.org/content/2d-explosion-animations-frame-by-frame",
+  "provider": "third_party",
+  "author": "Sinestesia (OpenGameArt user 'sinestesia')",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): Sinestesia (OpenGameArt user 'sinestesia')",
+  "files": [
+    "Free - 2D Explosion Animations/Half Sized/explosion 1.png",
+    "Free - 2D Explosion Animations/Half Sized/explosion 2.png",
+    "Free - 2D Explosion Animations/Half Sized/explosion 3.png",
+    "Free - 2D Explosion Animations/Half Sized/explosion 4.png",
+    "Free - 2D Explosion Animations/explosion 1.png",
+    "Free - 2D Explosion Animations/explosion 2.png",
+    "Free - 2D Explosion Animations/explosion 3.png",
+    "Free - 2D Explosion Animations/explosion 4.png",
+    "Free - 2D Explosion Animations/ezgif-3-ef210e89d0.gif"
+  ],
+  "notes": "Free - 2D Explosion Animations: 4 folhas 4096x4096 (+ versões Half Sized 2048) de explosões desenhadas à mão estilo anime (bola de fogo com anel, faíscas, fumaça)."
+}

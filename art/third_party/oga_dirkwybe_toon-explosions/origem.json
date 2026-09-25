@@ -1,0 +1,20 @@
+{
+  "asset_id": "oga_dirkwybe_toon_explosions",
+  "revision": 1,
+  "kind": "vfx",
+  "status": "candidate",
+  "source_url": "https://opengameart.org/content/explosion-spritesheet-low-res",
+  "provider": "third_party",
+  "author": "dirkwybe (OpenGameArt)",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): dirkwybe (OpenGameArt)",
+  "files": [
+    "explosion0001-sheet_211x219.png",
+    "explosion0002-sheet_223x213.png",
+    "explosion0003-sheet_300x300.png",
+    "explosion0004-sheet_300x300.png",
+    "explosion0005-sheet_300x300.png"
+  ],
+  "notes": "5 folhas de explosão toon renderizadas no Blender COM contorno escuro (211x219, 223x213 e 3x 300x300 por frame, ~56 frames): bola creme → laranja → fumaça preta → cinza. O arquivo duplicado explosion0003-sheet_300x300_0.png (mesmo hash) foi apagado."
+}

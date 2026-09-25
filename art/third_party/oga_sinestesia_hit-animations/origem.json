@@ -1,0 +1,17 @@
+{
+  "asset_id": "oga_sinestesia_hit_animations",
+  "revision": 1,
+  "kind": "vfx",
+  "status": "candidate",
+  "source_url": "https://opengameart.org/content/hit-animation-frame-by-frame ; https://opengameart.org/content/hit-animation-2-frame-by-frame",
+  "provider": "third_party",
+  "author": "Sinestesia (OpenGameArt user 'sinestesia')",
+  "license": "CC0-1.0",
+  "terms_checked_on": "2026-09-24",
+  "attribution": "Opcional (CC0): Sinestesia (OpenGameArt user 'sinestesia')",
+  "files": [
+    "hit_yellow_01_4096.png",
+    "hit_yellow_02_4096.png"
+  ],
+  "notes": "Duas folhas 4096x4096 de 16 frames (1024x1024 cada, 4x4) de faísca de acerto amarela desenhada à mão, fundo transparente. hit_yellow_01 = estrela radial; hit_yellow_02 = golpe direcional (diagonal)."
+}
