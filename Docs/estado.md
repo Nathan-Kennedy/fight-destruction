@@ -1,8 +1,7 @@
 # Estado
 
 - **Data:** 24/09/2026
-- **Build:** projeto Godot 4.7.2 em `game/`, sem export. Repositório git sem commit (o dono pediu
-  para não commitar por enquanto).
+- **Build:** projeto Godot 4.7.2 em `game/`, sem export. Repositório privado https://github.com/Nathan-Kennedy/fight-destruction (branch `main`); primeiro commit `e628931` em 24/09/2026.
 - **Última tarefa concluída:** M2 técnico em greybox, em paralelo por três agentes:
   - Estrutura, colapso anunciado e entulho: `game/sim/structure.gd` (subagente Claude).
   - Objetos arremessáveis: `game/sim/props.gd` (GPT-6 Astra via Codex).
